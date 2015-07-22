@@ -12,9 +12,5 @@
   "dependencies": {
     "suitcss/utils-display": "*"
     },
-  "license": "MIT",
-  "backend": {
-    "template": "",
-    "arguments": {}
-  }
+  "license": "MIT"
 }
