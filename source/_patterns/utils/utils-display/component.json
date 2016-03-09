@@ -10,7 +10,7 @@
   "scripts": [],
   "templates": [],
   "dependencies": {
-    "suitcss/utils-display": "*"
+    "suitcss/utils-display": "0.4.2"
     },
   "license": "MIT"
 }
