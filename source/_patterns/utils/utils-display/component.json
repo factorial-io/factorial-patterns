@@ -3,9 +3,9 @@
   "repo": "factorial-io/utils-display",
   "version": "0.1.0",
   "styles": [
-    "utils-display-sm.css",
-    "utils-display-md.css",
-    "utils-display-lg.css"
+    "lib/display-sm.css",
+    "lib/display-md.css",
+    "lib/display-lg.css"
     ],
   "scripts": [],
   "templates": [],
