@@ -1,7 +1,7 @@
 {
   "name": "factorial-io-utils-display",
   "repo": "factorial-io/utils-display",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "style": "index.css",
   "files": [
     "index.css",
