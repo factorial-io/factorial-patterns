@@ -1,0 +1,14 @@
+{
+  "name": "factorial-io-utils-display",
+  "repo": "factorial-io/utils-display",
+  "version": "0.1.0",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "lib"
+  ],
+  "dependencies": {
+    "suitcss/utils-display": "0.4.2"
+    },
+  "license": "MIT"
+}
