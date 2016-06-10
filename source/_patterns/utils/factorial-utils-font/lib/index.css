@@ -1,10 +1,30 @@
-/* @define: utils; */
+/** @define utilities */
 
 :root {
-}
-
-body {
-  font-family: sans-serif;
+  --alpha-font-size: 3rem;
+  --alpha-line-height: 1;
+  --beta-font-size: 2.25rem;
+  --beta-line-height: 1.1;
+  --gamma-font-size: 1.6875rem;
+  --gamma-line-height: 1.2;
+  --delta-font-size: 1.3125rem;
+  --delta-line-height: 1.3;
+  --epsilon-font-size: 1.125rem;
+  --epsilon-line-height: 1.4;
+  --zeta-font-size: 1rem;
+  --zeta-line-height: 1.5;
+  --giga-font-size: 8rem;
+  --giga-line-height: 1;
+  --mega-font-size: 6rem;
+  --mega-line-height: 1;
+  --kilo-font-size: 4rem;
+  --kilo-line-height: 1;
+  --milli-font-size: .875rem;
+  --milli-line-height: 1.5;
+  --micro-font-size: .75rem;
+  --micro-line-height: 1.5;
+  --nano-font-size: .625rem;
+  --nano-line-height: 1.5;
 }
 
 /*
@@ -12,33 +32,33 @@ body {
  */
 
 .u-fontAlpha {
-  font-size: 48px;
-  line-height: 1;
+  font-size: var(--alpha-font-size) !important;
+  line-height: var(--alpha-line-height) !important;
 }
 
 .u-fontBeta {
-  font-size: 36px;
-  line-height: 1.1;
+  font-size: var(--beta-font-size) !important;
+  line-height: var(--beta-line-height) !important;
 }
 
 .u-fontGamma {
-  font-size: 27px;
-  line-height: 1.2;
+  font-size: var(--gamma-font-size) !important;
+  line-height: var(--gamma-line-height) !important;
 }
 
 .u-fontDelta {
-  font-size: 21px;
-  line-height: 1.3;
+  font-size: var(--delta-font-size) !important;
+  line-height: var(--delta-line-height) !important;
 }
 
 .u-fontEpsilon {
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: var(--epsilon-font-size) !important;
+  line-height: var(--epsilon-line-height) !important;
 }
 
 .u-fontZeta {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: var(--zeta-font-size) !important;
+  line-height: var(--zeta-line-height) !important;
 }
 
 /*
@@ -46,18 +66,18 @@ body {
  */
 
 .u-fontGiga {
-  font-size: 128px;
-  line-height: 1;
+  font-size: var(--giga-font-size) !important;
+  line-height: var(--giga-line-height) !important;
 }
 
 .u-fontMega {
-  font-size: 96px;
-  line-height: 1;
+  font-size: var(--mega-font-size) !important;
+  line-height: var(--mega-line-height) !important;
 }
 
 .u-fontKilo {
-  font-size: 64px;
-  line-height: 1;
+  font-size: var(--kilo-font-size) !important;
+  line-height: var(--kilo-line-height) !important;
 }
 
 /*
@@ -65,16 +85,16 @@ body {
  */
 
 .u-fontMilli {
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: var(--milli-font-size) !important;
+  line-height: var(--milli-line-height) !important;
 }
 
 .u-fontMicro {
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: var(--micro-font-size) !important;
+  line-height: var(--micro-line-height) !important;
 }
 
 .u-fontNano {
-  font-size: 10px;
-  line-height: 1.5;
+  font-size: var(--nano-font-size) !important;
+  line-height: var(--nano-line-height) !important;
 }
