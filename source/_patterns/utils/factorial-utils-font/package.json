@@ -1,12 +1,13 @@
 {
-  "name": "factorial-frontend-stack",
+  "name": "factorial-utils-font",
   "version": "0.0.1",
-  "description": "A functional boilerplate of the Factorial frontend stack",
+  "description": "Mostly sane typographic base utilities.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://source.factorial.io/factorial/factorial-frontend-stack.git"
+    "url": ""
   },
+  "style": "lib/index.css",
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
   "scripts": {
