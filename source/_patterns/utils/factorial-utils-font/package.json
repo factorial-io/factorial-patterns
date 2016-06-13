@@ -1,6 +1,6 @@
 {
   "name": "factorial-utils-font",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mostly sane typographic base utilities.",
   "main": "index.js",
   "repository": {
@@ -68,5 +68,13 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
-  }
+  },
+  "keywords": [
+    "browser",
+    "css-utilities",
+    "typography",
+    "fonts",
+    "suitcss",
+    "style"
+  ]
 }
