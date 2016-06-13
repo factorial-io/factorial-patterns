@@ -2,7 +2,9 @@
 
 > Mostly sane typographic base utilities.
 
-These are helper utilities that set font-size/line-height pairs. The naming convention is inspired by Harry Robert's [inuit.css](https://github.com/inuitcss)
+* These are helper utilities that set font-size/line-height pairs. 
+* Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/).
+* The headline naming convention is inspired by Harry Robert's [inuit.css](https://github.com/inuitcss). 
 
 ## Installation 
 
