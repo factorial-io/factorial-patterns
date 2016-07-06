@@ -1,16 +1,102 @@
-# Factorial frontend stack 
+# Factorial utils-margin
 
-> A functional boilerplate of the Factorial frontend stack 
+> Low-level and immutable margin utilities. 
 
-## Prerequisites
+* These are helper utilities that set margins based on a global white space scale. 
+* These utilities use a shorthand naming convention.
+* Heaviliy inspired by [Basscss margin utils](http://www.basscss.com/#basscss-margin). 
+* Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/).
+
+## Installation 
+
+    $ npm install factorial-utils-margin
+
+## Available classes
+
+### Top margins
+
+* `.u-mt1`
+* `.u-mt2`
+* `.u-mt3`
+* `.u-mt4`
+* `.u-mt5`
+* `.u-mt6`
+* `.u-mt7`
+* `.u-mt8`
+
+### Right margins
+
+* `.u-mr1`
+* `.u-mr2`
+* `.u-mr3`
+* `.u-mr4`
+* `.u-mr5`
+* `.u-mr6`
+* `.u-mr7`
+* `.u-mr8`
+* `.u-mrAuto`
+
+### Bottom margins
+
+* `.u-mb1`
+* `.u-mb2`
+* `.u-mb3`
+* `.u-mb4`
+* `.u-mb5`
+* `.u-mb6`
+* `.u-mb7`
+* `.u-mb8`
+
+### Left margins
+
+* `.u-ml1`
+* `.u-ml2`
+* `.u-ml3`
+* `.u-ml4`
+* `.u-ml5`
+* `.u-ml6`
+* `.u-ml7`
+* `.u-ml8`
+* `.u-mlAuto`
+
+### Horizontal margins
+
+* `.u-mh1`
+* `.u-mh2`
+* `.u-mh3`
+* `.u-mh4`
+* `.u-mh5`
+* `.u-mh6`
+* `.u-mh7`
+* `.u-mh8`
+* `.u-mhAuto`
+
+### Vertical margins
+
+* `.u-mh1`
+* `.u-mh2`
+* `.u-mh3`
+* `.u-mh4`
+* `.u-mh5`
+* `.u-mh6`
+* `.u-mh7`
+* `.u-mh8`
+
+### Browser support
+
+Refer to the [caniuse](http://caniuse.com/#feat=rem) page for rem units.
+
+## Development
+
+### Prerequisites
 
 * [node.js](https://nodejs.org/en/)
 
-## Installation
+### Installation
 
     $ npm install
 
-## Available tasks
+### Available tasks
  
 `npm run ...` | Description
 ---|---

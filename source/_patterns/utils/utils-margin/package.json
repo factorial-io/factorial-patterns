@@ -1,12 +1,13 @@
 {
-  "name": "factorial-frontend-stack",
+  "name": "factorial-utils-margin",
   "version": "0.0.1",
-  "description": "A functional boilerplate of the Factorial frontend stack",
+  "description": "Low-level and immutable margin utilities.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://source.factorial.io/factorial/factorial-frontend-stack.git"
   },
+  "style": "lib/index.css",
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
   "scripts": {
@@ -67,5 +68,12 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
-  }
+  },
+  "keywords": [
+    "browser",
+    "css-utilities",
+    "margin",
+    "suitcss",
+    "style"
+  ]
 }

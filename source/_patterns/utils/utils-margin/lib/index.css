@@ -1,25 +1,17 @@
+@import "utils-margin-top.css";
+@import "utils-margin-right.css";
+@import "utils-margin-bottom.css";
+@import "utils-margin-left.css";
+@import "utils-margin-horizontal.css";
+@import "utils-margin-vertical.css";
+
 :root {
-  --ComponentName-background-color: #03c;
-}
-
-.ComponentName {
-  padding: .5em .75em;
-  color: #fff;
-  background-color: var(--ComponentName-background-color);
-  border: 0;
-}
-
-.ComponentName--modifierName {
-  font-size: 1.5rem;
-}
-
-.ComponentName-descendentName {
-  padding: .25em .5em;
-  font-size: .8em;
-  background-color: color(#fff alpha(50%));
-  border-radius: 2px;
-}
-
-.ComponentName.is-stateOfComponent {
-  background-color: #333;
+  --space-1: .125rem;
+  --space-2: .25rem;
+  --space-3: .5rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
 }

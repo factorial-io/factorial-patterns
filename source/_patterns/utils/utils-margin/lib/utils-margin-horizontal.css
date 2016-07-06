@@ -1,0 +1,46 @@
+/** @define utilities */
+
+.u-mh1 {
+  margin-right: var(--space-1) !important;
+  margin-left: var(--space-1) !important;
+}
+
+.u-mh2 {
+  margin-right: var(--space-2) !important;
+  margin-left: var(--space-2) !important;
+}
+
+.u-mh3 {
+  margin-right: var(--space-3) !important;
+  margin-left: var(--space-3) !important;
+}
+
+.u-mh4 {
+  margin-right: var(--space-4) !important;
+  margin-left: var(--space-4) !important;
+}
+
+.u-mh5 {
+  margin-right: var(--space-5) !important;
+  margin-left: var(--space-5) !important;
+}
+
+.u-mh6 {
+  margin-right: var(--space-6) !important;
+  margin-left: var(--space-6) !important;
+}
+
+.u-mh7 {
+  margin-right: var(--space-7) !important;
+  margin-left: var(--space-7) !important;
+}
+
+.u-mh8 {
+  margin-right: var(--space-8) !important;
+  margin-left: var(--space-8) !important;
+}
+
+.u-mhAuto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}

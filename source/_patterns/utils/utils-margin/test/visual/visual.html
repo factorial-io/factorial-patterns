@@ -4,51 +4,128 @@
 <meta name="viewport" content="initial-scale=1,width=device-width">
 <link rel="stylesheet" href="test.css">
 <link rel="stylesheet" href="index.css">
-<style>
-  #textWrapping {
-    width: 300px;
+<style type="text/css">
+  div[class^="u-m"] {
+    background-color: #C68793;
   }
-
-  #modifier-textWrapping {
-    width: 300px;
+  div[class$="Auto"] {
+    width: 50%;
   }
 </style>
-
 <div class="Test">
-  <h1 class="Test-title">SUIT CSS: <a href="https://github.com/repo/component-name">ComponentName</a> component tests</h1>
+  <h1 class="Test-title">SUIT CSS: <a href="https://github.com/repo/component-name">utils-margin</a> component tests</h1>
 
-  <h2 class="Test-describe">.ComponentName</h2>
-  <h3 class="Test-it">renders</h3>
-  <div class="Test-run" id="renders">
-    <button class="ComponentName">
-      Lorem ipsum dolor
-      <span class="ComponentName-descendentName">sit amet</span>
-    </button>
-  </div>
+  <h2 class="Test-describe">Top margins</h2>
+  <h3 class="Test-it">.u-mt1</h3>
+  <div class="Test-run"><div class="u-mt1">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mt2</h3>
+  <div class="Test-run"><div class="u-mt2">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mt3</h3>
+  <div class="Test-run"><div class="u-mt3">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mt4</h3>
+  <div class="Test-run"><div class="u-mt4">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mt5</h3>
+  <div class="Test-run"><div class="u-mt5">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mt6</h3>
+  <div class="Test-run"><div class="u-mt6">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mt7</h3>
+  <div class="Test-run"><div class="u-mt7">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mt8</h3>
+  <div class="Test-run"><div class="u-mt8">Lorem ipsum dolor</div></div>
 
-  <h2 class="Test-describe">.ComponentName--modifier</h2>
-  <h3 class="Test-it">renders larger</h3>
-  <div class="Test-run" id="modifier-larger">
-    <button class="ComponentName ComponentName--modifierName">
-      Lorem ipsum dolor
-      <span class="ComponentName-descendentName">sit amet</span>
-    </button>
-  </div>
+  <h2 class="Test-describe">Right margins</h2>
+  <h3 class="Test-it">.u-mr1</h3>
+  <div class="Test-run"><div class="u-mr1">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mr2</h3>
+  <div class="Test-run"><div class="u-mr2">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mr3</h3>
+  <div class="Test-run"><div class="u-mr3">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mr4</h3>
+  <div class="Test-run"><div class="u-mr4">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mr5</h3>
+  <div class="Test-run"><div class="u-mr5">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mr6</h3>
+  <div class="Test-run"><div class="u-mr6">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mr7</h3>
+  <div class="Test-run"><div class="u-mr7">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mr8</h3>
+  <div class="Test-run"><div class="u-mr8">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mrAuto</h3>
+  <div class="Test-run"><div class="u-mrAuto">Lorem ipsum dolor</div></div>
 
-  <h2 class="Test-describe">.ComponentName.is-stateOfComponent</h2>
-  <h3 class="Test-it">changes state</h3>
-  <div class="Test-run" id="state-of-component">
-    <button class="ComponentName is-stateOfComponent">
-      Lorem ipsum dolor
-      <span class="ComponentName-descendentName">sit amet</span>
-    </button>
-  </div>
+  <h2 class="Test-describe">Bottom margins</h2>
+  <h3 class="Test-it">.u-mb1</h3>
+  <div class="Test-run"><div class="u-mb1">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mb2</h3>
+  <div class="Test-run"><div class="u-mb2">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mb3</h3>
+  <div class="Test-run"><div class="u-mb3">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mb4</h3>
+  <div class="Test-run"><div class="u-mb4">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mb5</h3>
+  <div class="Test-run"><div class="u-mb5">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mb6</h3>
+  <div class="Test-run"><div class="u-mb6">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mb7</h3>
+  <div class="Test-run"><div class="u-mb7">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mb8</h3>
+  <div class="Test-run"><div class="u-mb8">Lorem ipsum dolor</div></div>
 
-  <h3 class="Test-it">combines modifier and state</h3>
-  <div class="Test-run" id="state-of-component">
-    <button class="ComponentName ComponentName--modifierName is-stateOfComponent">
-      Lorem ipsum dolor
-      <span class="ComponentName-descendentName">sit amet</span>
-    </button>
-  </div>
+  <h2 class="Test-describe">Left margins</h2>
+  <h3 class="Test-it">.u-ml1</h3>
+  <div class="Test-run"><div class="u-ml1">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-ml2</h3>
+  <div class="Test-run"><div class="u-ml2">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-ml3</h3>
+  <div class="Test-run"><div class="u-ml3">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-ml4</h3>
+  <div class="Test-run"><div class="u-ml4">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-ml5</h3>
+  <div class="Test-run"><div class="u-ml5">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-ml6</h3>
+  <div class="Test-run"><div class="u-ml6">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-ml7</h3>
+  <div class="Test-run"><div class="u-ml7">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-ml8</h3>
+  <div class="Test-run"><div class="u-ml8">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mlAuto</h3>
+  <div class="Test-run"><div class="u-mlAuto">Lorem ipsum dolor</div></div>
+
+  <h2 class="Test-describe">Horizontal margins</h2>
+  <h3 class="Test-it">.u-mh1</h3>
+  <div class="Test-run"><div class="u-mh1">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mh2</h3>
+  <div class="Test-run"><div class="u-mh2">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mh3</h3>
+  <div class="Test-run"><div class="u-mh3">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mh4</h3>
+  <div class="Test-run"><div class="u-mh4">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mh5</h3>
+  <div class="Test-run"><div class="u-mh5">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mh6</h3>
+  <div class="Test-run"><div class="u-mh6">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mh7</h3>
+  <div class="Test-run"><div class="u-mh7">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mh8</h3>
+  <div class="Test-run"><div class="u-mh8">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mhAuto</h3>
+  <div class="Test-run"><div class="u-mhAuto">Lorem ipsum dolor</div></div>
+
+  <h2 class="Test-describe">Vertical margins</h2>
+  <h3 class="Test-it">.u-mv1</h3>
+  <div class="Test-run"><div class="u-mv1">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mv2</h3>
+  <div class="Test-run"><div class="u-mv2">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mv3</h3>
+  <div class="Test-run"><div class="u-mv3">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mv4</h3>
+  <div class="Test-run"><div class="u-mv4">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mv5</h3>
+  <div class="Test-run"><div class="u-mv5">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mv6</h3>
+  <div class="Test-run"><div class="u-mv6">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mv7</h3>
+  <div class="Test-run"><div class="u-mv7">Lorem ipsum dolor</div></div>
+  <h3 class="Test-it">.u-mv8</h3>
+  <div class="Test-run"><div class="u-mv8">Lorem ipsum dolor</div></div>
 </div>

@@ -1,0 +1,33 @@
+/** @define utilities */
+
+.u-mb1 {
+  margin-bottom: var(--space-1) !important;
+}
+
+.u-mb2 {
+  margin-bottom: var(--space-2) !important;
+}
+
+.u-mb3 {
+  margin-bottom: var(--space-3) !important;
+}
+
+.u-mb4 {
+  margin-bottom: var(--space-4) !important;
+}
+
+.u-mb5 {
+  margin-bottom: var(--space-5) !important;
+}
+
+.u-mb6 {
+  margin-bottom: var(--space-6) !important;
+}
+
+.u-mb7 {
+  margin-bottom: var(--space-7) !important;
+}
+
+.u-mb8 {
+  margin-bottom: var(--space-8) !important;
+}
