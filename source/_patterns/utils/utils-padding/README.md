@@ -13,6 +13,17 @@
 
 ## Available classes
 
+### Paddings
+
+* `.u-p1`
+* `.u-p2`
+* `.u-p3`
+* `.u-p4`
+* `.u-p5`
+* `.u-p6`
+* `.u-p7`
+* `.u-p8`
+
 ### Top paddings
 
 * `.u-pt1`
