@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://source.factorial.io/factorial/factorial-frontend-stack.git"
+    "url": "https://github.com/factorial-io/utils-margin.git"
   },
   "style": "lib/index.css",
   "author": "Milan Matull <milan@factorial.io>",
