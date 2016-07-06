@@ -82,7 +82,20 @@
 * `.u-mh7`
 * `.u-mh8`
 
-### Browser support
+## Configuration
+
+property | default
+---|---
+--space-1 | .125rem
+--space-2 | .25rem
+--space-3 | .5rem
+--space-4 | 1rem
+--space-5 | 2rem
+--space-6 | 4rem
+--space-7 | 8rem
+--space-8 | 16rem
+
+## Browser support
 
 Refer to the [caniuse](http://caniuse.com/#feat=rem) page for rem units.
 
