@@ -73,14 +73,14 @@
 
 ### Vertical margins
 
-* `.u-mh1`
-* `.u-mh2`
-* `.u-mh3`
-* `.u-mh4`
-* `.u-mh5`
-* `.u-mh6`
-* `.u-mh7`
-* `.u-mh8`
+* `.u-mv1`
+* `.u-mv2`
+* `.u-mv3`
+* `.u-mv4`
+* `.u-mv5`
+* `.u-mv6`
+* `.u-mv7`
+* `.u-mv8`
 
 ## Configuration
 
