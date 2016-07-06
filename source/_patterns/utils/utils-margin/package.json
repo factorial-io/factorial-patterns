@@ -1,6 +1,6 @@
 {
   "name": "factorial-utils-margin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Low-level and immutable margin utilities.",
   "main": "index.js",
   "repository": {
