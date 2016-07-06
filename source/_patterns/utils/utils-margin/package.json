@@ -8,6 +8,15 @@
     "url": "https://github.com/factorial-io/utils-margin.git"
   },
   "style": "lib/index.css",
+  "files": [
+    "./lib/index.css",
+    "./lib/utils-margin-top.css",
+    "./lib/utils-margin-right.css",
+    "./lib/utils-margin-bottom.css",
+    "./lib/utils-margin-left.css",
+    "./lib/utils-margin-horizontal.css",
+    "./lib/utils-margin-vertical.css"
+  ],
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
   "scripts": {
