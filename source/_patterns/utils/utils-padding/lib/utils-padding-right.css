@@ -1,0 +1,37 @@
+/** @define utilities */
+
+.u-pr1 {
+  padding-right: var(--space-1) !important;
+}
+
+.u-pr2 {
+  padding-right: var(--space-2) !important;
+}
+
+.u-pr3 {
+  padding-right: var(--space-3) !important;
+}
+
+.u-pr4 {
+  padding-right: var(--space-4) !important;
+}
+
+.u-pr5 {
+  padding-right: var(--space-5) !important;
+}
+
+.u-pr6 {
+  padding-right: var(--space-6) !important;
+}
+
+.u-pr7 {
+  padding-right: var(--space-7) !important;
+}
+
+.u-pr8 {
+  padding-right: var(--space-8) !important;
+}
+
+.u-prAuto {
+  padding-right: auto !important;
+}

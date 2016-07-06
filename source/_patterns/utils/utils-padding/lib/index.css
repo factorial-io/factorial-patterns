@@ -1,0 +1,17 @@
+@import "utils-padding-top.css";
+@import "utils-padding-right.css";
+@import "utils-padding-bottom.css";
+@import "utils-padding-left.css";
+@import "utils-padding-horizontal.css";
+@import "utils-padding-vertical.css";
+
+:root {
+  --space-1: .125rem;
+  --space-2: .25rem;
+  --space-3: .5rem;
+  --space-4: 1rem;
+  --space-5: 2rem;
+  --space-6: 4rem;
+  --space-7: 8rem;
+  --space-8: 16rem;
+}
