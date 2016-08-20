@@ -1,6 +1,6 @@
 {
   "name": "factorial-utils-font",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mostly sane typographic base utilities.",
   "main": "index.js",
   "repository": {
