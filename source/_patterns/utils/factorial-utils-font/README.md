@@ -66,19 +66,19 @@
 Pro tip: For basic responsive typography change the base font size on the body tag. This will scale all utilities if based on rem units. Example using [postcss-custom-media](https://github.com/postcss/postcss-custom-media):
 
     @media (--sm-viewport) {
-      body {
+      html {
         font-size: 1.1em;
       }
     }
 
     @media (--md-viewport) {
-      body {
+      html {
         font-size: 1.2em;
       }
     }
 
     @media (--lg-viewport) {
-      body {
+      html {
         font-size: 1.3em;
       }
     }
