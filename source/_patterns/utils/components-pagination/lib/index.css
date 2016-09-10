@@ -1,0 +1,73 @@
+/** @define Pagination */
+
+:root {
+  --Pagination-margin: .25rem;
+  --Pagination-bullet-size: .5rem;
+  --Pagination-border-width: .0625rem;
+  --Pagination-border-style: solid;
+}
+
+/*
+ * [1] Prevent outer margins.
+ */
+
+.Pagination {
+  margin: 0 -calc(var(--Pagination-margin) / 2); /* 1. */
+  line-height: 0; /* 1. */
+}
+
+/*
+ * [1] Hide text content, without affecting screen readers.
+ * [2] NB: Make sure to not render HTML white space between pagination items as
+ * this will create additional margins.
+ * [3] Do not grow box when the border grows.
+ */
+
+.Pagination-bullet {
+  display: inline-block; /* 2. */
+  width: var(--Pagination-bullet-size);
+  height: var(--Pagination-bullet-size);
+  margin: 0 calc(var(--Pagination-margin) / 2);
+  overflow: hidden; /* 1. */
+  text-indent: -9999rem; /* 1. */
+  border-style: var(--Pagination-border-style);
+  border-width: var(--Pagination-border-width);
+  border-radius: 50%;
+  box-sizing: border-box; /* 3. */
+}
+
+/*
+ * [1] Use border-width instead of background-color:currentcolor as border-color
+ * is correctly inherited on iOS devices.
+ */
+
+.Pagination-bullet.is-active {
+  border-width: calc(var(--Pagination-bullet-size) / 2); /* 1. */
+}
+
+/*
+ * [1] Bullets usually are to small to make good click targets, therefore adding
+ * clickability requires an additional modifier.
+ */
+
+.Pagination--clickable .Pagination-bullet {
+  cursor: pointer; /* 1. */
+}
+
+/*
+ * [1] Constrain the container width so bullets render below each other.
+ */
+
+.Pagination--vertical {
+  width: var(--Pagination-bullet-size); /* 1. */
+  margin: -calc(var(--Pagination-margin) / 2) 0;
+}
+
+/*
+ * [1] Mitigates inherited line-height, so margins are the same as horizontally.
+ */
+
+.Pagination--vertical .Pagination-bullet {
+  display: block; /* 1. */
+  margin: calc(var(--Pagination-margin) / 2) 0;
+}
