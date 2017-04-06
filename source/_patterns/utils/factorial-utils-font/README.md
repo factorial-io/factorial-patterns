@@ -35,35 +35,38 @@
 
 ## Configuration
 
-* `--alpha-font-size`
-* `--alpha-line-height`
-* `--beta-font-size`
-* `--beta-line-height`
-* `--gamma-font-size`
-* `--gamma-line-height`
-* `--delta-font-size`
-* `--delta-line-height`
-* `--epsilon-font-size`
-* `--epsilon-line-height`
-* `--zeta-font-size`
-* `--zeta-line-height`
-* `--giga-font-size`
-* `--giga-line-height`
-* `--mega-font-size`
-* `--mega-line-height`
-* `--kilo-font-size`
-* `--kilo-line-height`
-* `--milli-font-size`
-* `--milli-line-height`
-* `--micro-font-size`
-* `--micro-line-height`
-* `--nano-font-size`
-* `--nano-line-height`
-
+property | default
+---|---
+--font-size-alpha | 3rem
+--line-height-alpha | 1
+--font-size-beta | 2.25rem
+--line-height-beta | 1.1
+--font-size-gamma | 1.6875rem
+--line-height-gamma | 1.2
+--font-size-delta | 1.3125rem
+--line-height-delta | 1.3
+--font-size-epsilon | 1.125rem
+--line-height-epsilon | 1.4
+--font-size-zeta | 1rem
+--line-height-zeta | 1.5
+--font-size-giga | 8rem
+--line-height-giga | 1
+--font-size-mega | 6rem
+--line-height-mega | 1
+--font-size-kilo | 4rem
+--line-height-kilo | 1
+--font-size-milli | .875rem
+--line-height-milli | 1.5
+--font-size-micro | .75rem
+--line-height-micro | 1.5
+--font-size-nano | .625rem
+--line-height-nano | 1.5
 
 ## Responsive typography
 
-Pro tip: For basic responsive typography change the base font size on the body tag. This will scale all utilities if based on rem units. Example using [postcss-custom-media](https://github.com/postcss/postcss-custom-media):
+Pro tip: For basic responsive typography change the base font size on the html
+tag. This will scale all utilities if based on rem units. Example using 
+[postcss-custom-media](https://github.com/postcss/postcss-custom-media):
 
     @media (--sm-viewport) {
       html {
@@ -86,7 +89,9 @@ Pro tip: For basic responsive typography change the base font size on the body t
 
 ## Usage
 
-Combine at free will. Use semantic headlines and apply the sizes using the utility classes. NB: The order of headlines and class names doesn't need to match. 
+Combine at free will. Use semantic headlines and apply the sizes using the 
+utility classes. NB: The order of headlines and class names doesn't need to 
+match. 
 
 ``` html
 <h1 class="u-fontDelta">
@@ -94,11 +99,13 @@ Combine at free will. Use semantic headlines and apply the sizes using the utili
 </h1>
 <h2 class="u-fontAlpha">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nibh, 
-  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac ullamcorper ac, gravida at nibh.
+  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac 
+  ullamcorper ac, gravida at nibh.
 </h2>
 <p class="u-fontMilli">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nibh, 
-  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac ullamcorper ac, gravida at nibh.  
+  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac 
+  ullamcorper ac, gravida at nibh.  
 </p>
 ```
 
