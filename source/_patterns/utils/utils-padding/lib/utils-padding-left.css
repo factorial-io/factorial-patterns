@@ -31,7 +31,3 @@
 .u-pl8 {
   padding-left: var(--space-8) !important;
 }
-
-.u-plAuto {
-  padding-left: auto !important;
-}
