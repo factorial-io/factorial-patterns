@@ -69,7 +69,7 @@ function compileJS(flag) {
 
 gulp.task('build:js', () => compileJS());
 
-gulp.task('lint:css', () => gulp.src('lib/index.css')
+gulp.task('lint:css', () => gulp.src(['lib/*.css'])
   .pipe(plumber())
   .pipe(stylelint(
     {
