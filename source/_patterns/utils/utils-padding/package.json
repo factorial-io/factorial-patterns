@@ -1,6 +1,6 @@
 {
   "name": "factorial-utils-padding",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Low-level and immutable padding utilities.",
   "main": "index.js",
   "repository": {
