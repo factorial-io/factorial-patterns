@@ -19,7 +19,7 @@
   },
   "scripts": {
     "preprocess": "suitcss button.css build/build.css",
-    "postinstall": "ln -s ../../../node_modules/factorial-components-button ../source/_patterns/01-components/components-button",
-    "postuninstall": "rm -f ../source/_patterns/01-components/components-button"
+    "postinstall": "ln -s ../../../node_modules/factorial-components-button ../../source/_patterns/01-components/components-button",
+    "postuninstall": "rm -f ../../source/_patterns/01-components/components-button"
   }
 }
