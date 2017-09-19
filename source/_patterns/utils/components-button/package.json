@@ -18,8 +18,8 @@
     "suitcss-components-button": "^6.0.0"
   },
   "scripts": {
-    "preprocess": "suitcss button.css build/build.css"
-  },
-  "postinstall": "ln -s ../../../node_modules/factorial-components-button source/_patterns/01-components/components-button",
-  "postuninstall": "rm -f source/_patterns/01-components/components-button"
+    "preprocess": "suitcss button.css build/build.css",
+    "postinstall": "ln -s ../../../node_modules/factorial-components-button source/_patterns/01-components/components-button",
+    "postuninstall": "rm -f source/_patterns/01-components/components-button"
+  }
 }
