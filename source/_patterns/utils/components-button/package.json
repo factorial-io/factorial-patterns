@@ -1,0 +1,23 @@
+{
+  "name": "factorial-components-button",
+  "version": "1.0.0",
+  "main": "button.js",
+  "style": "button.css",
+  "files": [
+    "button.css",
+    "button.js",
+    "button.json",
+    "button.twig"
+  ],
+  "author": "Milan Matull <milan@factorial.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "suitcss-preprocessor": "^4.0.0"
+  },
+  "dependencies": {
+    "suitcss-components-button": "^6.0.0"
+  },
+  "scripts": {
+    "preprocess": "suitcss button.css build/build.css"
+  }
+}
