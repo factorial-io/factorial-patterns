@@ -1,0 +1,129 @@
+@import "suitcss-base";
+@import "factorial-utils-font";
+@import "factorial-utils-margin";
+
+/** @define Rte; weak */
+
+:root {
+  --Rte-headline-font-family: var(--font-family-sans, sans-serif);
+  --Rte-link-color: var(--color-blue, #03c);
+}
+
+.Rte h1,
+.Rte h2,
+.Rte h3,
+.Rte h4,
+.Rte h5,
+.Rte h6 {
+  font-family: var(--Rte-headline-font-family);
+}
+
+.Rte h1 {
+  font-size: var(--font-size-alpha);
+  line-height: var(--line-height-alpha);
+  margin-bottom: calc(var(--line-height-alpha) * 1em);
+}
+
+.Rte h2 {
+  font-size: var(--font-size-beta);
+  line-height: var(--line-height-beta);
+  margin-bottom: calc(var(--line-height-beta) * 1em);
+}
+
+.Rte h3 {
+  font-size: var(--font-size-gamma);
+  line-height: var(--line-height-gamma);
+  margin-bottom: calc(var(--line-height-gamma) * 1em);
+}
+
+.Rte h4 {
+  font-size: var(--font-size-delta);
+  line-height: var(--line-height-delta);
+  margin-bottom: calc(var(--line-height-delta) * 1em);
+}
+
+.Rte h5 {
+  font-size: var(--font-size-epsilon);
+  line-height: var(--line-height-epsilon);
+  margin-bottom: calc(var(--line-height-epsilon) * 1em);
+}
+
+.Rte h6 {
+  font-size: var(--font-size-zeta);
+  line-height: var(--line-height-zeta);
+  margin-bottom: calc(var(--line-height-zeta) * 1em);
+}
+
+.Rte strong {
+  font-weight: bold;
+}
+
+.Rte em {
+  font-style: italic;
+}
+
+.Rte p,
+.Rte ul,
+.Rte ol {
+  font-size: var(--font-size-zeta);
+  line-height: var(--line-height-zeta);
+  margin-bottom: calc(var(--line-height-zeta) * 1em);
+}
+
+.Rte iframe {
+  margin-bottom: calc(var(--line-height-zeta) * 1em);
+}
+
+/*
+ * Ordered and unordered lists
+ */
+
+.Rte ol {
+  counter-reset: rte-counter;
+}
+
+.Rte ol > li,
+.Rte ul > li {
+  padding-left: var(--space-4);
+  position: relative;
+}
+
+.Rte ol > li {
+  counter-increment: rte-counter;
+}
+
+.Rte ol > li::before,
+.Rte ul > li::before {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.Rte ol > li::before {
+  content: counter(rte-counter, decimal) ".";
+}
+
+.Rte ul > li::before {
+  content: "•";
+}
+
+/*
+ * Inline links
+ */
+
+.Rte a {
+  color: var(--Rte-link-color);
+  text-decoration: underline;
+}
+
+/*
+ * Quotes
+ */
+
+.Rte blockquote {
+  border-left-color: var(--Rte-link-color);
+  border-left-style: solid;
+  border-left-width: var(--space-1);
+  font-style: italic;
+  padding-left: var(--space-4);
+}

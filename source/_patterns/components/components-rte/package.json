@@ -1,0 +1,11 @@
+{
+  "name": "components-rte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "factorial-utils-font": "^1.0.0",
+    "factorial-utils-margin": "^0.0.5",
+    "suitcss-base": "^4.0.0"
+  }
+}
