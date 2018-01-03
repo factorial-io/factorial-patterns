@@ -5,6 +5,7 @@ ie:
     - less
     - scss
 id:
+    - node_modules
     - scss
     - .svn
     - .sass-cache
