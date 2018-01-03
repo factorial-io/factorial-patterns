@@ -4,5 +4,6 @@
     "source/_patterns/utils/*",
     "source/_patterns/components/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "npmClient": "yarn"
 }
