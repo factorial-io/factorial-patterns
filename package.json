@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "npm-run-all": "^4.1.2",
+    "suitcss-preprocessor": "^4.0.0"
+  },
+  "scripts": {
+    "build": "npm-run-all build:*",
+    "build:css": "suitcss source/index.css public/index.css",
+    "build:pattern-lab": "php core/console --generate",
+    "dev": "php core/console --server"
+  }
+}
