@@ -2,11 +2,11 @@
 
 > Mostly sane typographic base utilities.
 
-* These are helper utilities that set font-size/line-height pairs. 
+* These are helper utilities that set font-size/line-height pairs.
 * Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/).
-* The headline naming convention is inspired by Harry Robert's [inuit.css](https://github.com/inuitcss). 
+* The headline naming convention is inspired by Harry Robert's [inuit.css](https://github.com/inuitcss).
 
-## Installation 
+## Installation
 
     $ npm install factorial-utils-font --save-dev
 
@@ -65,7 +65,7 @@ property | default
 ## Responsive typography
 
 Pro tip: For basic responsive typography change the base font size on the html
-tag. This will scale all utilities if based on rem units. Example using 
+tag. This will scale all utilities if based on rem units. Example using
 [postcss-custom-media](https://github.com/postcss/postcss-custom-media):
 
     @media (--sm-viewport) {
@@ -89,48 +89,22 @@ tag. This will scale all utilities if based on rem units. Example using
 
 ## Usage
 
-Combine at free will. Use semantic headlines and apply the sizes using the 
-utility classes. NB: The order of headlines and class names doesn't need to 
-match. 
+Combine at free will. Use semantic headlines and apply the sizes using the
+utility classes. NB: The order of headlines and class names doesn't need to
+match.
 
 ``` html
 <h1 class="u-fontDelta">
   Lorem ipsum dolor
 </h1>
 <h2 class="u-fontAlpha">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nibh, 
-  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nibh,
+  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac
   ullamcorper ac, gravida at nibh.
 </h2>
 <p class="u-fontMilli">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nibh, 
-  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac 
-  ullamcorper ac, gravida at nibh.  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nibh,
+  mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac
+  ullamcorper ac, gravida at nibh.
 </p>
 ```
-
-## Development
-
-### Prerequisites
-
-* [node.js](https://nodejs.org/en/)
-
-### Installation
-
-    $ npm install
-
-### Available tasks
- 
-`npm run ...` | Description
----|---
-build | Compile and bundle all CSS and JS files.
-build:css | Compile and bundle all CSS files to `build/index.css`.
-build:js | Compile and bundle all JS files to `build/index.js`.
-build:test | Copy and preprocess idiomatic test files to `build`.
-deploy | Deploy `gh-pages` branch.
-start | Start a development server at `http://localhost:8080`.
-test | Run all tests. 
-test:browser | Run all browser tests.
-test:lint-css | Lint all CSS files.
-test:lint-js | Lint all JS files.
-watch | Watch for file changes in `lib` and trigger a new build.

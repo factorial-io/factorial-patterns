@@ -1,0 +1,10 @@
+{% for key, value in items %}
+  {% for size in value.sizes %}
+    <div class="sg-pattern">
+      <div class="sg-label">.{{ size }}</div>
+      <div class="{{ size }}">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nibh, mattis ac orci vitae, pretium finibus tortor. Donec purus velit, molestie ac ullamcorper ac, gravida at nibh.
+      </div>
+    </div>
+  {% endfor %}
+{% endfor %}

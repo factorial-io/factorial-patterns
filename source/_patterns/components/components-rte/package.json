@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "style": "components-rte.css",
   "dependencies": {
     "factorial-utils-font": "^1.0.0",
     "factorial-utils-margin": "^0.0.5",
