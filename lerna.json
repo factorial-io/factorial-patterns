@@ -1,9 +1,0 @@
-{
-  "lerna": "2.2.0",
-  "packages": [
-    "source/_patterns/utils/*",
-    "source/_patterns/components/*"
-  ],
-  "version": "independent",
-  "npmClient": "yarn"
-}

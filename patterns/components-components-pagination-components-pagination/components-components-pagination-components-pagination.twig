@@ -1,0 +1,70 @@
+<div class="Test">
+  <h1 class="Test-title">SUIT CSS: <a href="https://github.com/factorial-io/components-pagination">components-pagination</a> component tests</h1>
+
+  <h2 class="Test-describe">.Pagination</h2>
+  <h3 class="Test-it">renders</h3>
+  <div class="Test-run" id="renders">
+    <nav class="Pagination">
+      <a class="Pagination-bullet is-active">Go to slide 1</a><a
+        class="Pagination-bullet">Go to slide 2</a><a
+        class="Pagination-bullet">Go to slide 3</a>
+    </nav>
+  </div>
+
+  <h2 class="Test-describe">.Pagination--vertical</h2>
+  <h3 class="Test-it">renders vertical</h3>
+  <div class="Test-run" id="renders-vertical">
+    <nav class="Pagination Pagination--vertical Pagination--clickable">
+      <a class="Pagination-bullet is-active">Go to slide 1</a><a
+        class="Pagination-bullet">Go to slide 2</a><a
+        class="Pagination-bullet">Go to slide 3</a>
+    </nav>
+  </div>
+
+  <h2 class="Test-describe">.Pagination--clickable</h2>
+  <h3 class="Test-it">is clickable</h3>
+  <div class="Test-run" id="is-clickable">
+    <nav class="Pagination Pagination--clickable">
+      <a class="Pagination-bullet is-active">Go to slide 1</a><a
+        class="Pagination-bullet">Go to slide 2</a><a
+        class="Pagination-bullet">Go to slide 3</a>
+    </nav>
+  </div>
+
+  <h2 class="Test-describe">.Pagination</h2>
+  <h3 class="Test-it">inherits color</h3>
+  <div class="Test-run" id="inherits-color">
+    <div class="color">
+      <nav class="Pagination">
+        <a class="Pagination-bullet is-active">Go to slide 1</a><a
+          class="Pagination-bullet">Go to slide 2</a><a
+          class="Pagination-bullet">Go to slide 3</a>
+      </nav>
+    </div>
+  </div>
+
+  <h2 class="Test-describe">.Pagination</h2>
+  <h3 class="Test-it">Doesn't create outer margins</h3>
+  <div class="Test-run" id="no-margins">
+    <div class="border">
+      <nav class="Pagination">
+        <a class="Pagination-bullet is-active">Go to slide 1</a><a
+          class="Pagination-bullet">Go to slide 2</a><a
+          class="Pagination-bullet">Go to slide 3</a>
+      </nav>
+    </div>
+  </div>
+
+  <h2 class="Test-describe">.Pagination</h2>
+  <h3 class="Test-it">Doesn't create outer margins</h3>
+  <div class="Test-run" id="no-margins-vertical">
+    <div class="border">
+      <nav class="Pagination Pagination--vertical">
+        <a class="Pagination-bullet is-active">Go to slide 1</a><a
+          class="Pagination-bullet">Go to slide 2</a><a
+          class="Pagination-bullet">Go to slide 3</a>
+      </nav>
+    </div>
+  </div>
+
+</div>
