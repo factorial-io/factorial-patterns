@@ -2,10 +2,7 @@
   "name": "factorial-components-pagination",
   "version": "0.1.3",
   "description": "A simple bullet-style pagination",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/factorial-io/components-pagination.git"
-  },
+  "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-pagination",
   "main": "index.js",
   "style": "components-pagination.css",
   "files": [
@@ -13,10 +10,6 @@
   ],
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
-  "scripts": {
-  },
-  "devDependencies": {
-  },
   "keywords": [
     "browser",
     "css-utilities",

@@ -3,20 +3,14 @@
   "version": "1.0.0",
   "description": "Low-level and immutable padding utilities.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/factorial-io/utils-padding.git"
-  },
-  "style": "lib/index.css",
+  "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-padding",
+  "style": "utils-padding.css",
   "files": [
-    "lib"
+    "lib",
+    "utils-padding.css"
   ],
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
-  "scripts": {
-  },
-  "devDependencies": {
-  },
   "keywords": [
     "browser",
     "css-utilities",

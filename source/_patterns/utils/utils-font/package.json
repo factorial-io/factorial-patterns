@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Mostly sane typographic base utilities.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/factorial-io/utils-font.git"
-  },
+  "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-font",
   "style": "utils-font.css",
+  "files": [
+    "utils-font.css"
+  ],
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
   "keywords": [
