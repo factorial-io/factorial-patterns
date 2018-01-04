@@ -1,0 +1,33 @@
+/** @define utilities */
+
+.u-pb1 {
+  padding-bottom: var(--space-1) !important;
+}
+
+.u-pb2 {
+  padding-bottom: var(--space-2) !important;
+}
+
+.u-pb3 {
+  padding-bottom: var(--space-3) !important;
+}
+
+.u-pb4 {
+  padding-bottom: var(--space-4) !important;
+}
+
+.u-pb5 {
+  padding-bottom: var(--space-5) !important;
+}
+
+.u-pb6 {
+  padding-bottom: var(--space-6) !important;
+}
+
+.u-pb7 {
+  padding-bottom: var(--space-7) !important;
+}
+
+.u-pb8 {
+  padding-bottom: var(--space-8) !important;
+}

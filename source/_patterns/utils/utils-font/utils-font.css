@@ -1,0 +1,100 @@
+/** @define utilities */
+
+:root {
+  --font-size-alpha: 3rem;
+  --line-height-alpha: 1;
+  --font-size-beta: 2.25rem;
+  --line-height-beta: 1.1;
+  --font-size-gamma: 1.6875rem;
+  --line-height-gamma: 1.2;
+  --font-size-delta: 1.3125rem;
+  --line-height-delta: 1.3;
+  --font-size-epsilon: 1.125rem;
+  --line-height-epsilon: 1.4;
+  --font-size-zeta: 1rem;
+  --line-height-zeta: 1.5;
+  --font-size-giga: 8rem;
+  --line-height-giga: 1;
+  --font-size-mega: 6rem;
+  --line-height-mega: 1;
+  --font-size-kilo: 4rem;
+  --line-height-kilo: 1;
+  --font-size-milli: .875rem;
+  --line-height-milli: 1.5;
+  --font-size-micro: .75rem;
+  --line-height-micro: 1.5;
+  --font-size-nano: .625rem;
+  --line-height-nano: 1.5;
+}
+
+/*
+ * Headlines (equivalent to h1 - h6)
+ */
+
+.u-fontAlpha {
+  font-size: var(--font-size-alpha) !important;
+  line-height: var(--line-height-alpha) !important;
+}
+
+.u-fontBeta {
+  font-size: var(--font-size-beta) !important;
+  line-height: var(--line-height-beta) !important;
+}
+
+.u-fontGamma {
+  font-size: var(--font-size-gamma) !important;
+  line-height: var(--line-height-gamma) !important;
+}
+
+.u-fontDelta {
+  font-size: var(--font-size-delta) !important;
+  line-height: var(--line-height-delta) !important;
+}
+
+.u-fontEpsilon {
+  font-size: var(--font-size-epsilon) !important;
+  line-height: var(--line-height-epsilon) !important;
+}
+
+.u-fontZeta {
+  font-size: var(--font-size-zeta) !important;
+  line-height: var(--line-height-zeta) !important;
+}
+
+/*
+ * Mastheads (for use in heroes, etc)
+ */
+
+.u-fontGiga {
+  font-size: var(--font-size-giga) !important;
+  line-height: var(--line-height-giga) !important;
+}
+
+.u-fontMega {
+  font-size: var(--font-size-mega) !important;
+  line-height: var(--line-height-mega) !important;
+}
+
+.u-fontKilo {
+  font-size: var(--font-size-kilo) !important;
+  line-height: var(--line-height-kilo) !important;
+}
+
+/*
+ * Smallprint (for captions, etc.)
+ */
+
+.u-fontMilli {
+  font-size: var(--font-size-milli) !important;
+  line-height: var(--line-height-milli) !important;
+}
+
+.u-fontMicro {
+  font-size: var(--font-size-micro) !important;
+  line-height: var(--line-height-micro) !important;
+}
+
+.u-fontNano {
+  font-size: var(--font-size-nano) !important;
+  line-height: var(--line-height-nano) !important;
+}

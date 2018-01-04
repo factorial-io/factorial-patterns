@@ -1,0 +1,49 @@
+/** @define utilities */
+
+:root {
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-demi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 800;
+  --font-weight-black: 900;
+}
+
+.u-fw100 {
+  font-weight: var(--font-weight-thin) !important;
+}
+
+.u-fw200 {
+  font-weight: var(--font-weight-extra-light) !important;
+}
+
+.u-fw300 {
+  font-weight: var(--font-weight-light) !important;
+}
+
+.u-fw400 {
+  font-weight: var(--font-weight-normal) !important;
+}
+
+.u-fw500 {
+  font-weight: var(--font-weight-medium) !important;
+}
+
+.u-fw600 {
+  font-weight: var(--font-weight-demi-bold) !important;
+}
+
+.u-fw700 {
+  font-weight: var(--font-weight-bold) !important;
+}
+
+.u-fw800 {
+  font-weight: var(--font-weight-heavy) !important;
+}
+
+.u-fw900 {
+  font-weight: var(--font-weight-black) !important;
+}

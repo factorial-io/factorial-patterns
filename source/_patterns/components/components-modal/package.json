@@ -1,0 +1,10 @@
+{
+  "name": "factorial-components-modal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "factorial-utils-margin": "^0.0.5",
+    "suitcss-utils-position": "^1.0.1"
+  }
+}

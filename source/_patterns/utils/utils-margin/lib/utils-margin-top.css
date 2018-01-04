@@ -1,0 +1,33 @@
+/** @define utilities */
+
+.u-mt1 {
+  margin-top: var(--space-1) !important;
+}
+
+.u-mt2 {
+  margin-top: var(--space-2) !important;
+}
+
+.u-mt3 {
+  margin-top: var(--space-3) !important;
+}
+
+.u-mt4 {
+  margin-top: var(--space-4) !important;
+}
+
+.u-mt5 {
+  margin-top: var(--space-5) !important;
+}
+
+.u-mt6 {
+  margin-top: var(--space-6) !important;
+}
+
+.u-mt7 {
+  margin-top: var(--space-7) !important;
+}
+
+.u-mt8 {
+  margin-top: var(--space-8) !important;
+}
