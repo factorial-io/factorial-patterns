@@ -1,7 +1,7 @@
 {
   "name": "factorial-patterns",
-  "private": true,
   "license": "MIT",
+  "repository": "https://github.com/factorial-io/factorial-patterns",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
