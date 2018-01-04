@@ -5,7 +5,6 @@ ie:
     - less
     - scss
 id:
-    - components-modal/node_modules
     - scss
     - .svn
     - .sass-cache
