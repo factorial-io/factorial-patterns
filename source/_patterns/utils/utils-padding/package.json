@@ -1,6 +1,6 @@
 {
   "name": "factorial-utils-padding",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Low-level and immutable padding utilities.",
   "main": "index.js",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-padding",

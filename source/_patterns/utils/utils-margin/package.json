@@ -1,6 +1,6 @@
 {
   "name": "factorial-utils-margin",
-  "version": "0.0.5",
+  "version": "1.2.0",
   "description": "Low-level and immutable margin utilities.",
   "main": "index.js",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-margin",
