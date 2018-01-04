@@ -3,10 +3,7 @@
   "version": "0.0.5",
   "description": "Low-level and immutable margin utilities.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/factorial-io/utils-margin.git"
-  },
+  "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-margin",
   "style": "utils-margin.css",
   "files": [
     "utils-margin.css",
@@ -14,10 +11,6 @@
   ],
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
-  "scripts": {
-  },
-  "devDependencies": {
-  },
   "keywords": [
     "browser",
     "css-utilities",
