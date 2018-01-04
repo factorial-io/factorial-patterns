@@ -17,5 +17,15 @@
     "build:pattern-lab": "php core/console --generate",
     "dev": "php core/console --server",
     "deploy": "gulp deploy"
+  },
+  "dependencies": {
+    "factorial-components-modal": "^0.3.0",
+    "factorial-components-pagination": "^0.3.0",
+    "factorial-components-rte": "^0.2.0",
+    "factorial-utils-font": "^1.2.0",
+    "factorial-utils-font-weight": "^0.3.0",
+    "factorial-utils-margin": "^1.2.0",
+    "factorial-utils-padding": "^1.2.0",
+    "suitcss-components-test": "^1.0.0"
   }
 }
