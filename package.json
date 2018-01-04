@@ -1,4 +1,7 @@
 {
+  "name": "factorial-patterns",
+  "private": true,
+  "license": "MIT",
   "devDependencies": {
     "lerna": "^2.2.0",
     "npm-run-all": "^4.1.2",
