@@ -12,7 +12,7 @@
     "suitcss-preprocessor": "^4.0.0"
   },
   "scripts": {
-    "build": "lerna clean --yes && yarn run build:pattern-lab && lerna bootstrap && yarn run build:css",
+    "build": "lerna bootstrap && yarn run build:css && lerna clean --yes && yarn run build:pattern-lab",
     "build:css": "suitcss source/index.css public/index.css",
     "build:pattern-lab": "php core/console --generate",
     "dev": "php core/console --server",
