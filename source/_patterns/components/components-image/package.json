@@ -1,0 +1,11 @@
+{
+  "name": "factorial-components-image",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Milan Matull <milan@factorial.io>",
+  "license": "MIT",
+  "dependencies": {
+    "lazysizes": "^4.0.1",
+    "picturefill": "^3.0.2"
+  }
+}
