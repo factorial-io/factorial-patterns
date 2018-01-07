@@ -32,3 +32,9 @@ Use `lerna clean` to remove the dependencies of all patterns.
     yarn run dev
 
 View patternlab at http://localhost:8080.
+
+## Deploy
+
+    yarn run deploy
+
+This will commit the `public` folder and push the `gh-pages` branch.
