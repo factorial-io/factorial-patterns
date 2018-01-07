@@ -1,9 +1,10 @@
 {
   "name": "factorial-components-image",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "components-image.js",
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
+  "style": "components-image.css",
   "dependencies": {
     "factorial-components-flex-embed": "^0.3.0",
     "lazysizes": "^4.0.1",
