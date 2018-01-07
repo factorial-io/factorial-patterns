@@ -76,4 +76,4 @@ Log into npm, then.
     lerna publish 
 
 This will `diff` all packages and ask you about version bumping anything that has 
-changed. SEE: https://github.com/lerna/lerna/
+changed. SEE: https://github.com/lerna/lerna/#publish
