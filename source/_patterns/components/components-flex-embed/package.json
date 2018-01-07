@@ -1,0 +1,11 @@
+{
+  "name": "factorial-components-flex-embed",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Milan Matull <milan@factorial.io>",
+  "license": "MIT",
+  "dependencies": {
+    "suitcss-components-flex-embed": "^2.0.4"
+  },
+  "style": "components-flex-embed.css"
+}
