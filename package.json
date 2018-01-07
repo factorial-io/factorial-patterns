@@ -3,6 +3,10 @@
   "license": "MIT",
   "repository": "https://github.com/factorial-io/factorial-patterns",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.0.0",
     "gh-pages": "^1.1.0",
     "lerna": "^2.2.0",
     "npm-run-all": "^4.1.2",
@@ -13,6 +17,7 @@
   "scripts": {
     "build": "lerna bootstrap && yarn run build:css && lerna clean --yes && yarn run build:pattern-lab",
     "build:css": "suitcss source/index.css public/index.css",
+    "build:js": "browserify source/index.js -o public/index.js -t [ babelify --presets [ env ] ]",
     "build:pattern-lab": "php core/console --generate",
     "dev": "php core/console --server",
     "deploy": "gh-pages -d public"
