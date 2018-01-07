@@ -20,10 +20,7 @@ This will install all the necessary build tools.
 
 ## Build
 
-    yarn run build:pattern-lab
-    lerna bootstrap
-    yarn run build:css
-    lerna clean
+    yarn run build
 
 This will build the CSS and pattern lab.
 
