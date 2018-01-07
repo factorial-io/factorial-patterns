@@ -1,25 +1,25 @@
 {
   "width": "320",
   "height": "240",
-  "src": "http://via.placeholder.com/320x240",
+  "src": "//via.placeholder.com/320x240",
   "alt": "Alternative text",
   "sources": [
     {
       "width": "320",
       "height": "240",
-      "srcset": "http://via.placeholder.com/320x240 1x, http://via.placeholder.com/640x480 2x",
+      "srcset": "//via.placeholder.com/320x240 1x, //via.placeholder.com/640x480 2x",
       "media": "(max-width: 1023px)"
     },
     {
       "width": "1024",
       "height": "768",
-      "srcset": "http://via.placeholder.com/1024x768 1x, http://via.placeholder.com/2048x1536 2x",
+      "srcset": "//via.placeholder.com/1024x768 1x, //via.placeholder.com/2048x1536 2x",
       "media": "(min-width: 1024px) and (max-width: 1279px)"
     },
     {
       "width": "1280",
       "height": "960",
-      "srcset": "http://via.placeholder.com/1280x960 1x, http://via.placeholder.com/2560x1920 2x",
+      "srcset": "//via.placeholder.com/1280x960 1x, //via.placeholder.com/2560x1920 2x",
       "media": "(min-width: 1280px)"
     }
   ]

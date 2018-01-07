@@ -1,25 +1,25 @@
 {
   "width": "320",
   "height": "240",
-  "src": "http://via.placeholder.com/320x240",
+  "src": "//via.placeholder.com/320x240",
   "alt": "Alternative text",
   "sources": [
     {
       "width": "320",
       "height": "640",
-      "srcset": "http://via.placeholder.com/320x640",
+      "srcset": "//via.placeholder.com/320x640",
       "media": "(max-width: 1023px)"
     },
     {
       "width": "1024",
       "height": "768",
-      "srcset": "http://via.placeholder.com/1024x768",
+      "srcset": "//via.placeholder.com/1024x768",
       "media": "(min-width: 1024px) and (max-width: 1279px)"
     },
     {
       "width": "1280",
       "height": "960",
-      "srcset": "http://via.placeholder.com/1280x960",
+      "srcset": "//via.placeholder.com/1280x960",
       "media": "(min-width: 1280px)"
     }
   ]
