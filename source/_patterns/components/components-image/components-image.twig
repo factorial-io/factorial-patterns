@@ -1,0 +1,68 @@
+{% set placeholder_image %}
+  <img
+    class="Image is-lazy"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="{{ src }}"
+    alt="{{ alt }}"
+  >
+{% endset %}
+
+{% set unique_id = random() %}
+{% set modifier = "FlexEmbed-ratio--#{ unique_id }" %}
+{% set style %}
+  .{{ modifier }} {
+    {{ "padding-bottom: #{ height / width * 100 }% !important;" }}
+  }
+{% endset %}
+
+{% if sources is not empty %}
+  {% set img %}
+    <noscript>
+      <img
+        class="Image"
+        src="{{ src }}"
+        alt="{{ alt }}"
+      >
+    </noscript>
+    <picture>
+      <!--[if IE 9]><video style="display: none;><![endif]-->
+      {% for source in sources %}
+        <source
+          data-srcset="{{ source.srcset }}"
+          media="{{ source.media }}"
+        >
+        {% set style_media %}
+          @media {{ source.media }} {
+            .{{ modifier }} {
+              {{ "padding-bottom: #{ source.height / source.width * 100 }% !important;" }}
+            }
+          }
+        {% endset %}
+        {% set style = style ~ style_media %}
+      {% endfor %}
+      {{ placeholder_image }}
+      <style>
+        {{ style }}
+      </style>
+    </picture>
+  {% endset %}
+{% else %}
+  {% set img %}
+    {{ placeholder_image }}
+    <style>
+      {{ style }}
+    </style>
+    <noscript>
+      <img
+        class="Image"
+        src="{{ src }}"
+        alt="{{ alt }}"
+      >
+    </noscript>
+  {% endset %}
+{% endif %}
+
+{% include "@components/components-flex-embed/components-flex-embed.twig" with {
+  "content": img,
+  "modifier": modifier,
+} only %}
