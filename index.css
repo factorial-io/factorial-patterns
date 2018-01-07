@@ -293,6 +293,73 @@
   padding: 1rem;
 }
 
+/** @define Pagination */
+
+/*
+ * [1] Prevent outer margins.
+ */
+
+.Pagination {
+  margin: 0 -0.125rem; /* 1. */
+  line-height: 0; /* 1. */
+}
+
+/*
+ * [1] Hide text content, without affecting screen readers.
+ * [2] NB: Make sure to not render HTML white space between pagination items as
+ * this will create additional margins.
+ * [3] Do not grow box when the border grows.
+ */
+
+.Pagination-bullet {
+  display: inline-block; /* 2. */
+  width: .5rem;
+  height: .5rem;
+  margin: 0 0.125rem;
+  overflow: hidden; /* 1. */
+  text-indent: -9999rem; /* 1. */
+  border-style: solid;
+  border-width: .0625rem;
+  border-radius: 50%;
+  box-sizing: border-box; /* 3. */
+}
+
+/*
+ * [1] Use border-width instead of background-color:currentcolor as border-color
+ * is correctly inherited on iOS devices.
+ */
+
+.Pagination-bullet.is-active {
+  border-width: 0.25rem; /* 1. */
+}
+
+/*
+ * [1] Bullets usually are too small to make good click targets, therefore adding
+ * clickability requires an additional modifier.
+ */
+
+.Pagination--clickable .Pagination-bullet {
+  cursor: pointer; /* 1. */
+}
+
+/*
+ * [1] Constrain the container width so bullets render below each other.
+ */
+
+.Pagination--vertical {
+  width: .5rem; /* 1. */
+  margin: -0.125rem 0;
+}
+
+/*
+ * [1] Mitigates inherited line-height, so margins are the same as horizontally.
+ */
+
+.Pagination--vertical .Pagination-bullet {
+  display: block; /* 1. */
+  margin: 0.125rem 0;
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -1056,5 +1123,333 @@ ul {
 
 .u-fw900 {
   font-weight: 900 !important;
+}
+
+/** @define utilities */
+
+.u-p1 {
+  padding: .125rem !important;
+}
+
+.u-p2 {
+  padding: .25rem !important;
+}
+
+.u-p3 {
+  padding: .5rem !important;
+}
+
+.u-p4 {
+  padding: 1rem !important;
+}
+
+.u-p5 {
+  padding: 2rem !important;
+}
+
+.u-p6 {
+  padding: 4rem !important;
+}
+
+.u-p7 {
+  padding: 8rem !important;
+}
+
+.u-p8 {
+  padding: 16rem !important;
+}
+
+/** @define utilities */
+
+.u-pt1 {
+  padding-top: .125rem !important;
+}
+
+.u-pt2 {
+  padding-top: .25rem !important;
+}
+
+.u-pt3 {
+  padding-top: .5rem !important;
+}
+
+.u-pt4 {
+  padding-top: 1rem !important;
+}
+
+.u-pt5 {
+  padding-top: 2rem !important;
+}
+
+.u-pt6 {
+  padding-top: 4rem !important;
+}
+
+.u-pt7 {
+  padding-top: 8rem !important;
+}
+
+.u-pt8 {
+  padding-top: 16rem !important;
+}
+
+/** @define utilities */
+
+.u-pr1 {
+  padding-right: .125rem !important;
+}
+
+.u-pr2 {
+  padding-right: .25rem !important;
+}
+
+.u-pr3 {
+  padding-right: .5rem !important;
+}
+
+.u-pr4 {
+  padding-right: 1rem !important;
+}
+
+.u-pr5 {
+  padding-right: 2rem !important;
+}
+
+.u-pr6 {
+  padding-right: 4rem !important;
+}
+
+.u-pr7 {
+  padding-right: 8rem !important;
+}
+
+.u-pr8 {
+  padding-right: 16rem !important;
+}
+
+/** @define utilities */
+
+.u-pb1 {
+  padding-bottom: .125rem !important;
+}
+
+.u-pb2 {
+  padding-bottom: .25rem !important;
+}
+
+.u-pb3 {
+  padding-bottom: .5rem !important;
+}
+
+.u-pb4 {
+  padding-bottom: 1rem !important;
+}
+
+.u-pb5 {
+  padding-bottom: 2rem !important;
+}
+
+.u-pb6 {
+  padding-bottom: 4rem !important;
+}
+
+.u-pb7 {
+  padding-bottom: 8rem !important;
+}
+
+.u-pb8 {
+  padding-bottom: 16rem !important;
+}
+
+/** @define utilities */
+
+.u-pl1 {
+  padding-left: .125rem !important;
+}
+
+.u-pl2 {
+  padding-left: .25rem !important;
+}
+
+.u-pl3 {
+  padding-left: .5rem !important;
+}
+
+.u-pl4 {
+  padding-left: 1rem !important;
+}
+
+.u-pl5 {
+  padding-left: 2rem !important;
+}
+
+.u-pl6 {
+  padding-left: 4rem !important;
+}
+
+.u-pl7 {
+  padding-left: 8rem !important;
+}
+
+.u-pl8 {
+  padding-left: 16rem !important;
+}
+
+/** @define utilities */
+
+.u-ph1 {
+  padding-right: .125rem !important;
+  padding-left: .125rem !important;
+}
+
+.u-ph2 {
+  padding-right: .25rem !important;
+  padding-left: .25rem !important;
+}
+
+.u-ph3 {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+.u-ph4 {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.u-ph5 {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+
+.u-ph6 {
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
+}
+
+.u-ph7 {
+  padding-right: 8rem !important;
+  padding-left: 8rem !important;
+}
+
+.u-ph8 {
+  padding-right: 16rem !important;
+  padding-left: 16rem !important;
+}
+
+/** @define utilities */
+
+.u-pv1 {
+  padding-top: .125rem !important;
+  padding-bottom: .125rem !important;
+}
+
+.u-pv2 {
+  padding-top: .25rem !important;
+  padding-bottom: .25rem !important;
+}
+
+.u-pv3 {
+  padding-top: .5rem !important;
+  padding-bottom: .5rem !important;
+}
+
+.u-pv4 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.u-pv5 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.u-pv6 {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.u-pv7 {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
+.u-pv8 {
+  padding-top: 16rem !important;
+  padding-bottom: 16rem !important;
+}
+
+/** @define Test */
+
+/**
+ * The 'describe' CSS counter
+ */
+
+.Test {
+  counter-reset: test-describe;
+}
+
+.Test-describe::before {
+  content: counter(test-describe);
+  counter-increment: test-describe;
+}
+
+/**
+ * The 'it' CSS counter
+ */
+
+.Test-describe {
+  counter-reset: test-it;
+}
+
+.Test-it::before {
+  content: counter(test-describe) "." counter(test-it);
+  counter-increment: test-it;
+}
+
+/**
+ * The test title
+ */
+
+.Test-title {
+  background: #eee;
+  color: #999;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+/**
+ * The test description and expectation titles
+ */
+
+.Test-describe,
+.Test-it {
+  background: #eee;
+  border-left: 5px solid #666;
+  color: #666;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 0.75em 20px;
+}
+
+.Test-describe {
+  font-size: 1.5em;
+  margin: 60px 0 20px;
+}
+
+/**
+ * The counter styles
+ */
+
+.Test-describe::before,
+.Test-it::before {
+  color: #999;
+  display: inline-block;
+  margin-right: 10px;
+  min-width: 30px;
+  text-transform: uppercase;
 }
 

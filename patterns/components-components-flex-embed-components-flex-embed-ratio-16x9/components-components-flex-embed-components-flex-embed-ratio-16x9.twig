@@ -1,0 +1,9 @@
+<div class="FlexEmbed">
+  <div
+    class="FlexEmbed-ratio {% if modifier is defined %} {{ modifier }}{% endif %}"
+    style="{% if style is defined %}{{ style }}{% endif %}"
+  ></div>
+  <div class="FlexEmbed-content">
+    {{ content|raw }}
+  </div>
+</div>
