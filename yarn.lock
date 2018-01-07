@@ -1184,6 +1184,12 @@ extsprintf@1.3.0, extsprintf@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
 
+factorial-components-flex-embed@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/factorial-components-flex-embed/-/factorial-components-flex-embed-0.3.0.tgz#0008c228f79726a1eded400ef44f1504d63de0ef"
+  dependencies:
+    suitcss-components-flex-embed "^2.0.4"
+
 factorial-components-modal@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/factorial-components-modal/-/factorial-components-modal-0.3.0.tgz#5b0fe58015722a103904665d7320f2e616e26200"
@@ -3945,6 +3951,10 @@ suitcss-base@^4.0.0:
   resolved "https://registry.yarnpkg.com/suitcss-base/-/suitcss-base-4.0.0.tgz#f3374526410c90e28a3fd8435947f1caa6146eb6"
   dependencies:
     normalize.css "^7.0.0"
+
+suitcss-components-flex-embed@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/suitcss-components-flex-embed/-/suitcss-components-flex-embed-2.0.4.tgz#a618359128941ef51c3d268373824a2874323d44"
 
 suitcss-components-test@^1.0.0:
   version "1.0.0"
