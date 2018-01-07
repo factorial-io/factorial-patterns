@@ -1,3 +1,5 @@
+@import "suitcss-components-flex-embed";
+
 /** @define FlexEmbed; weak */
 
 .FlexEmbed-content img {
