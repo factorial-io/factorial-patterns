@@ -2,6 +2,7 @@
   "name": "factorial-components-flex-embed",
   "version": "0.1.0",
   "main": "index.js",
+  "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-flex-embed",
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
   "dependencies": {
