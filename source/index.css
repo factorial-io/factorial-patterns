@@ -1,3 +1,8 @@
-@import "./_patterns/components/components-modal/components-modal.css";
-@import "./_patterns/components/components-rte/components-rte.css";
-@import "./_patterns/utils/utils-font-weight/utils-font-weight.css";
+@import "factorial-components-modal";
+@import "factorial-components-pagination";
+@import "factorial-components-rte";
+@import "factorial-utils-font";
+@import "factorial-utils-font-weight";
+@import "factorial-utils-margin";
+@import "factorial-utils-padding";
+@import "suitcss-components-test";
