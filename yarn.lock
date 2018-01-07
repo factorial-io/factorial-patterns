@@ -2027,6 +2027,14 @@ factorial-components-flex-embed@^0.3.0:
   dependencies:
     suitcss-components-flex-embed "^2.0.4"
 
+factorial-components-image@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/factorial-components-image/-/factorial-components-image-0.2.0.tgz#f625218d790fabe0263dfa840d1f6fb4caa5e805"
+  dependencies:
+    factorial-components-flex-embed "^0.3.0"
+    lazysizes "^4.0.1"
+    picturefill "^3.0.2"
+
 factorial-components-modal@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/factorial-components-modal/-/factorial-components-modal-0.3.0.tgz#5b0fe58015722a103904665d7320f2e616e26200"
@@ -3032,6 +3040,10 @@ lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
 
+lazysizes@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-4.0.1.tgz#428fe9561d7ff5c3b2b2787b78ed54080986420b"
+
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
@@ -3811,6 +3823,10 @@ pbkdf2@^3.0.3:
 performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
+
+picturefill@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/picturefill/-/picturefill-3.0.2.tgz#fa3d35fffbef5ab5300fe2ad9dca8f2e36cba27b"
 
 pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"

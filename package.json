@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "factorial-components-flex-embed": "^0.3.0",
+    "factorial-components-image": "^0.2.0",
     "factorial-components-modal": "^0.3.0",
     "factorial-components-pagination": "^0.3.0",
     "factorial-components-rte": "^0.2.0",
