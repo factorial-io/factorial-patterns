@@ -1,6 +1,6 @@
 {
   "name": "factorial-components-image",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "components-image.js",
   "author": "Milan Matull <milan@factorial.io>",
   "license": "MIT",
