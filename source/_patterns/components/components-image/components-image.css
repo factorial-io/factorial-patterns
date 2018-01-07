@@ -1,0 +1,28 @@
+@import "factorial-components-flex-embed";
+
+/** @define Image */
+
+:root {
+  --Image-transition-duration: 100ms;
+}
+
+.Image.is-lazy,
+.Image.is-loading {
+  opacity: 0;
+  transition-duration: var(--Image-transition-duration);
+  transition-property: opacity;
+}
+
+.Image.is-loaded {
+  opacity: 1;
+  transition-duration: var(--Image-transition-duration);
+  transition-property: opacity;
+}
+
+/* WIP: Modernizr dependency! */
+
+/** @end */
+
+.no-js .Image.is-lazy {
+  display: none;
+}

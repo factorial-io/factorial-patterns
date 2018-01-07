@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="{{ htmlClass }}">
+<html class="{{ htmlClass }} no-js">
   <head>
     <title>{{ title }}</title>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="../../index.css?{{ cacheBuster }}" media="all" />
     <link rel="stylesheet" href="../../css/pattern-scaffolding.css?{{ cacheBuster }}" media="all" />
+    <script src="../../modernizr-custom.js"></script>
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     {{ patternLabHead | raw }}
@@ -14,4 +15,3 @@
 
   </head>
   <body class="{{ bodyClass }}">
-
