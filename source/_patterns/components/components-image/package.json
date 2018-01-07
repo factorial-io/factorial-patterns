@@ -1,8 +1,9 @@
 {
   "name": "factorial-components-image",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "components-image.js",
   "author": "Milan Matull <milan@factorial.io>",
+  "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-image",
   "license": "MIT",
   "style": "components-image.css",
   "dependencies": {
