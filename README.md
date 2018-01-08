@@ -13,6 +13,10 @@ This repository is a collection of reusable UI patterns.
 
 ### Components
 
+Components are distinct UI pieces that can be included and provide their own 
+twig template and accept variables. 
+
+* [components-button](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-button)
 * [components-flex-embed](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-flex-embed)
 * [components-image](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-image)
 * [components-modal](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-modal)
@@ -20,6 +24,9 @@ This repository is a collection of reusable UI patterns.
 * [components-rte](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-rte)
 
 ### Utils 
+
+Utils are low-level CSS classes that can be used to build bigger UI parts. Their 
+twig templates are only for demonstration purposes. 
 
 * [utils-font](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-font)
 * [utils-font-weight](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-font-weight)
