@@ -9,3 +9,7 @@
 @import "factorial-utils-padding";
 @import "suitcss-components-test";
 @import "_patterns/components/components-button/components-button.css";
+@import "_patterns/utils/utils-display-responsive/utils-display-responsive.css";
+@custom-media --sm-viewport (max-width: 639px);
+@custom-media --md-viewport (min-width: 640px) and (max-width: 959px);
+@custom-media --lg-viewport (min-width: 960px);

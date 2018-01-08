@@ -1,0 +1,11 @@
+{
+  "name": "factorial-utils-display-responsive",
+  "version": "0.3.0",
+  "style": "utils-display-responsive.css",
+  "license": "MIT",
+  "author": "Milan Matull <milan@factorial.io>",
+  "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-display-responsive",
+  "contributors": [
+    "Nils Schönwald <nils@factorial.io>"
+  ]
+}
