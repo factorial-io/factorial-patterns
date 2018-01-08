@@ -1,9 +1,14 @@
 ---
 title: utils-font-weight
 ---
-Immutable utility classes for setting font weights.
 
-Available classes:
+WIP: Immutable utility classes for setting font weights.
+
+## Installation
+
+    yarn add factorial-utils-font-weight
+
+## Available classes:
 
 * `.u-fw100`
 * `.u-fw200`

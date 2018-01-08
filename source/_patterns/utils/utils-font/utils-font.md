@@ -8,7 +8,7 @@
 
 ## Installation
 
-    $ npm install factorial-utils-font --save-dev
+    yarn add factorial-utils-font
 
 ## Available classes
 
