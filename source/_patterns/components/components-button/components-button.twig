@@ -1,6 +1,5 @@
-{% set tag_name = tag_name|default('a') %}
-
 {% spaceless %}
+  {% set tag_name = tag_name|default('a') %}
   {% if tag_name == 'button' %}
     <button
       class="Button {% if modifier is defined %} {{- modifier -}} {% endif %}"
