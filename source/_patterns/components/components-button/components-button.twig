@@ -1,24 +1,24 @@
-{% set tag_name = url|default('a') %}
+{% set tag_name = tag_name|default('a') %}
 
 {% spaceless %}
   {% if tag_name == 'button' %}
     <button
-      class="Button {% if modifier is defined %} {{ modifier }} {% endif %}"
+      class="Button {% if modifier is defined %} {{- modifier -}} {% endif %}"
     >
-      {{ label|raw }}
+      {{- label|raw -}}
     </button>
   {% elseif tag_name == 'input' %}
     <input
-      class="Button {% if modifier is defined %} {{ modifier }} {% endif %}"
+      class="Button {% if modifier is defined %} {{- modifier -}} {% endif %}"
       type="submit"
-      value="{{ label }}">
+      value="{{- label -}}">
   {% else %}
     <a
-      class="Button {% if modifier is defined %} {{ modifier }} {% endif %}"
-      href="{% if url is defined %} {{ url }} {% endif %}"
-      target="{% if target is defined %} {{target }} {% endif %}"
+      class="Button {% if modifier is defined %} {{- modifier -}} {% endif %}"
+      href="{% if url is defined %} {{- url -}} {% endif %}"
+      target="{% if target is defined %} {{- target -}} {% endif %}"
     >
-      {{ label|raw }}
+      {{- label|raw -}}
     </a>
   {% endif %}
 {% endspaceless %}
