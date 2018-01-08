@@ -1,5 +1,5 @@
 ---
-title: factorial-components-modal
+title: factorial-components-image
 ---
 
 WIP: A ui pattern for responsive images.
