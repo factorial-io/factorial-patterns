@@ -1,6 +1,6 @@
 {
   "name": "factorial-utils-font-weight",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-font-weight",
