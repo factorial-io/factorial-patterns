@@ -1631,3 +1631,177 @@ ul {
   opacity: 0.6;
 }
 
+/** @define utilities */
+
+@media (max-width: 639px) {
+
+  /**
+   * Display-type utilities
+   */
+
+  .u-sm-block {
+    display: block !important;
+  }
+
+  .u-sm-hidden {
+    display: none !important;
+  }
+
+  /**
+   * Completely remove from the flow but leave available to screen readers.
+   */
+
+  .u-sm-hiddenVisually {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+  }
+
+  .u-sm-inline {
+    display: inline !important;
+  }
+
+  /**
+   * 1. Fix for Firefox bug: an image styled `max-width:100%` within an
+   * inline-block will display at its default size, and not limit its width to
+   * 100% of an ancestral container.
+   */
+
+  .u-sm-inlineBlock {
+    display: inline-block !important;
+    max-width: 100%; /* 1 */
+  }
+
+  .u-sm-table {
+    display: table !important;
+  }
+
+  .u-sm-tableCell {
+    display: table-cell !important;
+  }
+
+  .u-sm-tableRow {
+    display: table-row !important;
+  }
+}
+
+/** @define utilities */
+
+@media (min-width: 640px) and (max-width: 959px) {
+
+  /**
+   * Display-type utilities
+   */
+
+  .u-md-block {
+    display: block !important;
+  }
+
+  .u-md-hidden {
+    display: none !important;
+  }
+
+  /**
+   * Completely remove from the flow but leave available to screen readers.
+   */
+
+  .u-md-hiddenVisually {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+  }
+
+  .u-md-inline {
+    display: inline !important;
+  }
+
+  /**
+   * 1. Fix for Firefox bug: an image styled `max-width:100%` within an
+   * inline-block will display at its default size, and not limit its width to
+   * 100% of an ancestral container.
+   */
+
+  .u-md-inlineBlock {
+    display: inline-block !important;
+    max-width: 100%; /* 1 */
+  }
+
+  .u-md-table {
+    display: table !important;
+  }
+
+  .u-md-tableCell {
+    display: table-cell !important;
+  }
+
+  .u-md-tableRow {
+    display: table-row !important;
+  }
+}
+
+/** @define utilities */
+
+@media (min-width: 960px) {
+
+  /**
+   * Display-type utilities
+   */
+
+  .u-lg-block {
+    display: block !important;
+  }
+
+  .u-lg-hidden {
+    display: none !important;
+  }
+
+  /**
+   * Completely remove from the flow but leave available to screen readers.
+   */
+
+  .u-lg-hiddenVisually {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+  }
+
+  .u-lg-inline {
+    display: inline !important;
+  }
+
+  /**
+   * 1. Fix for Firefox bug: an image styled `max-width:100%` within an
+   * inline-block will display at its default size, and not limit its width to
+   * 100% of an ancestral container.
+   */
+
+  .u-lg-inlineBlock {
+    display: inline-block !important;
+    max-width: 100%; /* 1 */
+  }
+
+  .u-lg-table {
+    display: table !important;
+  }
+
+  .u-lg-tableCell {
+    display: table-cell !important;
+  }
+
+  .u-lg-tableRow {
+    display: table-row !important;
+  }
+}
+

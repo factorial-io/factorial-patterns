@@ -1,0 +1,312 @@
+  <style>
+    /**
+     * Used to prevent margin collapse so that it is easier to test for `inline`
+     * vs `inline-block`.
+     */
+
+    .u-sm-nbfc {
+      overflow: hidden;
+    }
+
+    .dev-Box {
+      background: #ddd;
+      margin-top: 10px;
+    }
+
+    /**
+     * The `margin` is used to differentiate between `inline` and
+     * `inline-block`, as `inline` elements will not apply the margin.
+     */
+
+    .dev-Inner {
+      background: #ff0;
+      margin: 10px 0;
+    }
+  </style>
+
+  <div class="Test">
+    <h1 class="Test-title">SUIT CSS: <a href="https://github.com/suitcss/utils-display">display utilities</a> tests</h1>
+
+    <h2 class="Test-describe">.u-sm-block</h2>
+    <h3 class="Test-it">renders as block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-block dev-Inner">
+          This <code>span</code> should be <code>block</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-hidden</h2>
+    <h3 class="Test-it">renders as hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-hidden dev-Inner">
+          This <code>span</code> should be hidden
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-hiddenVisually</h2>
+    <h3 class="Test-it">renders as visually hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-hiddenVisually dev-Inner">
+          This <code>span</code> should be read by screenreaders
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-inline</h2>
+    <h3 class="Test-it">renders as inline</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-inline dev-Inner">
+          This <code>span</code> should be <code>inline</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-inlineBlock</h2>
+    <h3 class="Test-it">renders as inline-block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-inlineBlock dev-Inner">
+          This <code>span</code> should be <code>inline-block</code>
+        </span>
+      </div>
+    </div>
+    <h3 class="Test-it">doesn't expand beyond its parent when containing wide children (test in Firefox)</h3>
+    <div class="Test-run">
+      <div class="dev-Box" style="width:200px">
+        <div class="u-sm-inlineBlock dev-Inner">
+          <img src="http://lorempixel.com/300/300/sports/1" alt="" style="margin:10px 0; max-width:100%;">
+        </div>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-table, .u-sm-tableCell, and .u-sm-tableRow</h2>
+    <h3 class="Test-it">render as tables</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <div class="u-sm-table dev-Inner">
+          <div class="u-sm-tableRow dev-Inner">
+            <div class="u-sm-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+            <div class="u-sm-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    /**
+     * Used to prevent margin collapse so that it is easier to test for `inline`
+     * vs `inline-block`.
+     */
+
+    .u-md-nbfc {
+      overflow: hidden;
+    }
+
+    .dev-Box {
+      background: #ddd;
+      margin-top: 10px;
+    }
+
+    /**
+     * The `margin` is used to differentiate between `inline` and
+     * `inline-block`, as `inline` elements will not apply the margin.
+     */
+
+    .dev-Inner {
+      background: #ff0;
+      margin: 10px 0;
+    }
+  </style>
+
+  <div class="Test">
+    <h1 class="Test-title">SUIT CSS: <a href="https://github.com/suitcss/utils-display">display utilities</a> tests</h1>
+
+    <h2 class="Test-describe">.u-md-block</h2>
+    <h3 class="Test-it">renders as block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-block dev-Inner">
+          This <code>span</code> should be <code>block</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-hidden</h2>
+    <h3 class="Test-it">renders as hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-hidden dev-Inner">
+          This <code>span</code> should be hidden
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-hiddenVisually</h2>
+    <h3 class="Test-it">renders as visually hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-hiddenVisually dev-Inner">
+          This <code>span</code> should be read by screenreaders
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-inline</h2>
+    <h3 class="Test-it">renders as inline</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-inline dev-Inner">
+          This <code>span</code> should be <code>inline</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-inlineBlock</h2>
+    <h3 class="Test-it">renders as inline-block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-inlineBlock dev-Inner">
+          This <code>span</code> should be <code>inline-block</code>
+        </span>
+      </div>
+    </div>
+    <h3 class="Test-it">doesn't expand beyond its parent when containing wide children (test in Firefox)</h3>
+    <div class="Test-run">
+      <div class="dev-Box" style="width:200px">
+        <div class="u-md-inlineBlock dev-Inner">
+          <img src="http://lorempixel.com/300/300/sports/1" alt="" style="margin:10px 0; max-width:100%;">
+        </div>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-table, .u-md-tableCell, and .u-md-tableRow</h2>
+    <h3 class="Test-it">render as tables</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <div class="u-md-table dev-Inner">
+          <div class="u-md-tableRow dev-Inner">
+            <div class="u-md-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+            <div class="u-md-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    /**
+     * Used to prevent margin collapse so that it is easier to test for `inline`
+     * vs `inline-block`.
+     */
+
+    .u-lg-nbfc {
+      overflow: hidden;
+    }
+
+    .dev-Box {
+      background: #ddd;
+      margin-top: 10px;
+    }
+
+    /**
+     * The `margin` is used to differentiate between `inline` and
+     * `inline-block`, as `inline` elements will not apply the margin.
+     */
+
+    .dev-Inner {
+      background: #ff0;
+      margin: 10px 0;
+    }
+  </style>
+
+  <div class="Test">
+    <h1 class="Test-title">SUIT CSS: <a href="https://github.com/suitcss/utils-display">display utilities</a> tests</h1>
+
+    <h2 class="Test-describe">.u-lg-block</h2>
+    <h3 class="Test-it">renders as block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-block dev-Inner">
+          This <code>span</code> should be <code>block</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-hidden</h2>
+    <h3 class="Test-it">renders as hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-hidden dev-Inner">
+          This <code>span</code> should be hidden
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-hiddenVisually</h2>
+    <h3 class="Test-it">renders as visually hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-hiddenVisually dev-Inner">
+          This <code>span</code> should be read by screenreaders
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-inline</h2>
+    <h3 class="Test-it">renders as inline</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-inline dev-Inner">
+          This <code>span</code> should be <code>inline</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-inlineBlock</h2>
+    <h3 class="Test-it">renders as inline-block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-inlineBlock dev-Inner">
+          This <code>span</code> should be <code>inline-block</code>
+        </span>
+      </div>
+    </div>
+    <h3 class="Test-it">doesn't expand beyond its parent when containing wide children (test in Firefox)</h3>
+    <div class="Test-run">
+      <div class="dev-Box" style="width:200px">
+        <div class="u-lg-inlineBlock dev-Inner">
+          <img src="http://lorempixel.com/300/300/sports/1" alt="" style="margin:10px 0; max-width:100%;">
+        </div>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-table, .u-lg-tableCell, and .u-lg-tableRow</h2>
+    <h3 class="Test-it">render as tables</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <div class="u-lg-table dev-Inner">
+          <div class="u-lg-tableRow dev-Inner">
+            <div class="u-lg-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+            <div class="u-lg-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

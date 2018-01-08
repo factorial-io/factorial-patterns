@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html class=" no-js">
+  <head>
+    <title>Nullizzle shizznit velizzle, hizzle, suscipit own yo&#039;, gravida vizzle, arcu.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../index.css?1515423661" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1515423661" media="all" />
+    <script src="../../modernizr-custom.js"></script>
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    <!-- never cache patterns -->
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1515423661" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1515423661" media="all" />
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="">
+<!-- View All Patterns in a Pattern Sub-Type -->
+<div class="sg-main" role="main">
+  <!-- Patterns -->
+  <div id="sg-patterns">
+                  <div id="viewall-utils-utils-display-responsive" class="sg-subtype">
+  <h2>
+    <a href="../../patterns/utils-utils-display-responsive/index.html" class="patternLink" data-patternpartial="viewall-utils-utils-display-responsive">
+      utils display responsive
+    </a>
+  </h2>
+  
+  <div class="sg-pattern-body">
+    
+  </div>
+</div>                        <div id="utils-utils-display-responsive" class="sg-pattern">
+  <div class="sg-pattern-head">
+    <h3 class="sg-pattern-title">
+      <a href="../../patterns/utils-utils-display-responsive-utils-display-responsive/utils-utils-display-responsive-utils-display-responsive.html" class="patternLink" data-patternpartial="utils-utils-display-responsive" title="Link to Pattern">
+        factorial-utils-display-responsive
+        
+              </a>
+    </h3>
+    
+    <div class="sg-pattern-breadcrumb">
+      
+    </div>
+    
+    <a href="#" data-patternpartial="utils-utils-display-responsive" title="View Pattern Info" id="sg-pattern-extra-toggle-utils-utils-display-responsive" class="sg-pattern-extra-toggle">
+      <span>&#9660;</span>
+    </a>
+  </div>
+  
+  <div class="sg-pattern-extra" id="sg-pattern-extra-utils-utils-display-responsive"></div>
+    
+  <div class="sg-pattern-example">
+      <style>
+    /**
+     * Used to prevent margin collapse so that it is easier to test for `inline`
+     * vs `inline-block`.
+     */
+
+    .u-sm-nbfc {
+      overflow: hidden;
+    }
+
+    .dev-Box {
+      background: #ddd;
+      margin-top: 10px;
+    }
+
+    /**
+     * The `margin` is used to differentiate between `inline` and
+     * `inline-block`, as `inline` elements will not apply the margin.
+     */
+
+    .dev-Inner {
+      background: #ff0;
+      margin: 10px 0;
+    }
+  </style>
+
+  <div class="Test">
+    <h1 class="Test-title">SUIT CSS: <a href="https://github.com/suitcss/utils-display">display utilities</a> tests</h1>
+
+    <h2 class="Test-describe">.u-sm-block</h2>
+    <h3 class="Test-it">renders as block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-block dev-Inner">
+          This <code>span</code> should be <code>block</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-hidden</h2>
+    <h3 class="Test-it">renders as hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-hidden dev-Inner">
+          This <code>span</code> should be hidden
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-hiddenVisually</h2>
+    <h3 class="Test-it">renders as visually hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-hiddenVisually dev-Inner">
+          This <code>span</code> should be read by screenreaders
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-inline</h2>
+    <h3 class="Test-it">renders as inline</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-inline dev-Inner">
+          This <code>span</code> should be <code>inline</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-inlineBlock</h2>
+    <h3 class="Test-it">renders as inline-block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-sm-inlineBlock dev-Inner">
+          This <code>span</code> should be <code>inline-block</code>
+        </span>
+      </div>
+    </div>
+    <h3 class="Test-it">doesn't expand beyond its parent when containing wide children (test in Firefox)</h3>
+    <div class="Test-run">
+      <div class="dev-Box" style="width:200px">
+        <div class="u-sm-inlineBlock dev-Inner">
+          <img src="http://lorempixel.com/300/300/sports/1" alt="" style="margin:10px 0; max-width:100%;">
+        </div>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-sm-table, .u-sm-tableCell, and .u-sm-tableRow</h2>
+    <h3 class="Test-it">render as tables</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <div class="u-sm-table dev-Inner">
+          <div class="u-sm-tableRow dev-Inner">
+            <div class="u-sm-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+            <div class="u-sm-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    /**
+     * Used to prevent margin collapse so that it is easier to test for `inline`
+     * vs `inline-block`.
+     */
+
+    .u-md-nbfc {
+      overflow: hidden;
+    }
+
+    .dev-Box {
+      background: #ddd;
+      margin-top: 10px;
+    }
+
+    /**
+     * The `margin` is used to differentiate between `inline` and
+     * `inline-block`, as `inline` elements will not apply the margin.
+     */
+
+    .dev-Inner {
+      background: #ff0;
+      margin: 10px 0;
+    }
+  </style>
+
+  <div class="Test">
+    <h1 class="Test-title">SUIT CSS: <a href="https://github.com/suitcss/utils-display">display utilities</a> tests</h1>
+
+    <h2 class="Test-describe">.u-md-block</h2>
+    <h3 class="Test-it">renders as block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-block dev-Inner">
+          This <code>span</code> should be <code>block</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-hidden</h2>
+    <h3 class="Test-it">renders as hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-hidden dev-Inner">
+          This <code>span</code> should be hidden
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-hiddenVisually</h2>
+    <h3 class="Test-it">renders as visually hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-hiddenVisually dev-Inner">
+          This <code>span</code> should be read by screenreaders
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-inline</h2>
+    <h3 class="Test-it">renders as inline</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-inline dev-Inner">
+          This <code>span</code> should be <code>inline</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-inlineBlock</h2>
+    <h3 class="Test-it">renders as inline-block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-md-inlineBlock dev-Inner">
+          This <code>span</code> should be <code>inline-block</code>
+        </span>
+      </div>
+    </div>
+    <h3 class="Test-it">doesn't expand beyond its parent when containing wide children (test in Firefox)</h3>
+    <div class="Test-run">
+      <div class="dev-Box" style="width:200px">
+        <div class="u-md-inlineBlock dev-Inner">
+          <img src="http://lorempixel.com/300/300/sports/1" alt="" style="margin:10px 0; max-width:100%;">
+        </div>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-md-table, .u-md-tableCell, and .u-md-tableRow</h2>
+    <h3 class="Test-it">render as tables</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <div class="u-md-table dev-Inner">
+          <div class="u-md-tableRow dev-Inner">
+            <div class="u-md-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+            <div class="u-md-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    /**
+     * Used to prevent margin collapse so that it is easier to test for `inline`
+     * vs `inline-block`.
+     */
+
+    .u-lg-nbfc {
+      overflow: hidden;
+    }
+
+    .dev-Box {
+      background: #ddd;
+      margin-top: 10px;
+    }
+
+    /**
+     * The `margin` is used to differentiate between `inline` and
+     * `inline-block`, as `inline` elements will not apply the margin.
+     */
+
+    .dev-Inner {
+      background: #ff0;
+      margin: 10px 0;
+    }
+  </style>
+
+  <div class="Test">
+    <h1 class="Test-title">SUIT CSS: <a href="https://github.com/suitcss/utils-display">display utilities</a> tests</h1>
+
+    <h2 class="Test-describe">.u-lg-block</h2>
+    <h3 class="Test-it">renders as block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-block dev-Inner">
+          This <code>span</code> should be <code>block</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-hidden</h2>
+    <h3 class="Test-it">renders as hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-hidden dev-Inner">
+          This <code>span</code> should be hidden
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-hiddenVisually</h2>
+    <h3 class="Test-it">renders as visually hidden</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-hiddenVisually dev-Inner">
+          This <code>span</code> should be read by screenreaders
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-inline</h2>
+    <h3 class="Test-it">renders as inline</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-inline dev-Inner">
+          This <code>span</code> should be <code>inline</code>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-inlineBlock</h2>
+    <h3 class="Test-it">renders as inline-block</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <span class="u-lg-inlineBlock dev-Inner">
+          This <code>span</code> should be <code>inline-block</code>
+        </span>
+      </div>
+    </div>
+    <h3 class="Test-it">doesn't expand beyond its parent when containing wide children (test in Firefox)</h3>
+    <div class="Test-run">
+      <div class="dev-Box" style="width:200px">
+        <div class="u-lg-inlineBlock dev-Inner">
+          <img src="http://lorempixel.com/300/300/sports/1" alt="" style="margin:10px 0; max-width:100%;">
+        </div>
+      </div>
+    </div>
+
+    <h2 class="Test-describe">.u-lg-table, .u-lg-tableCell, and .u-lg-tableRow</h2>
+    <h3 class="Test-it">render as tables</h3>
+    <div class="Test-run">
+      <div class="dev-Box">
+        <div class="u-lg-table dev-Inner">
+          <div class="u-lg-tableRow dev-Inner">
+            <div class="u-lg-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+            <div class="u-lg-tableCell dev-Inner">
+              This <code>div</code> should be <code>table-cell</code> within <code>table</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  
+  <script type="text/json" id="sg-pattern-data-utils-utils-display-responsive" class="sg-pattern-data">
+    {"lineage":[],"lineageR":[],"patternBreadcrumb":{"patternType":"utils","patternSubtype":"utils display responsive"},"patternDesc":"<p>Reponsive CSS utility to change display properties based on media queries.<\/p>\n\n<p>SEE: <a href=\"https:\/\/github.com\/suitcss\/utils-display\">https:\/\/github.com\/suitcss\/utils-display<\/a><\/p>\n\n<h2>Installation<\/h2>\n\n<pre><code>yarn add factorial-utils-display-responsive\n<\/code><\/pre>","patternExtension":"twig","patternName":"factorial-utils-display-responsive","patternPartial":"utils-utils-display-responsive","patternState":""}
+  </script>
+</div><!--end .sg-pattern-->            </div> <!--end #sg-patterns-->
+</div><!--end .sg-main-->
+  <!--DO NOT REMOVE-->
+  <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
+  {"patternPartial":"viewall-utils-utils-display-responsive"}
+</script>
+
+<script>
+  /*!
+  * scriptLoader - v0.1
+  *
+  * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+  * Licensed under the MIT license
+  *
+  */
+  
+  var scriptLoader = {
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1515423661">
+  (function() {
+    if (self != top) {
+      var cb = '1515423661';
+      var js = [];
+      if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+        js.push('styleguide/bower_components/classList.min.js');
+      }
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+<script id="pl-js-insert-1515423661">
+  (function() {
+    if (self != top) {
+      var cb = '1515423661';
+      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
+      scriptLoader.run(js,cb,'pl-js-insert');
+    }
+  })();
+</script>
+
+  <script src="../../index.js?1515423661"></script>
+  </body>
+</html>
