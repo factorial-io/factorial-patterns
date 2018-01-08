@@ -1,13 +1,13 @@
 {
   "name": "factorial-components-image",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "components-image.js",
   "author": "Milan Matull <milan@factorial.io>",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-image",
   "license": "MIT",
   "style": "components-image.css",
   "dependencies": {
-    "factorial-components-flex-embed": "^0.3.0",
+    "factorial-components-flex-embed": "^0.3.1",
     "lazysizes": "^4.0.1",
     "picturefill": "^3.0.2"
   }

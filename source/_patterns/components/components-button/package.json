@@ -1,6 +1,6 @@
 {
   "name": "factorial-components-button",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "button.js",
   "style": "button.css",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-button",
