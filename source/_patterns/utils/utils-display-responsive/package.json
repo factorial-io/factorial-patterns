@@ -1,0 +1,10 @@
+{
+  "name": "factorial-utils-display-responsive",
+  "version": "0.3.0",
+  "style": "utils-display-responsive.css",
+  "license": "MIT",
+  "author": "Milan Matull <milan@factorial.io>",
+  "contributors": [
+    "Nils Schönwald <nils@factorial.io>"
+  ]
+}
