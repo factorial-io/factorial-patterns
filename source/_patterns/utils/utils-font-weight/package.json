@@ -4,8 +4,5 @@
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-font-weight",
-  "style": "utils-font-weight.css",
-  "files": [
-    "utils-font-weight.css"
-  ]
+  "style": "utils-font-weight.css"
 }

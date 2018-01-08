@@ -7,9 +7,9 @@
 * Heaviliy inspired by [Basscss margin utils](http://www.basscss.com/#basscss-margin). 
 * Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/).
 
-## Installation 
+## Installation
 
-    $ npm install factorial-utils-margin
+    yarn add factorial-utils-margin
 
 ## Available classes
 

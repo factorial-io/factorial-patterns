@@ -7,9 +7,9 @@
 * Heaviliy inspired by [Basscss padding utils](http://www.basscss.com/#basscss-padding). 
 * Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/).
 
-## Installation 
+## Installation
 
-    $ npm install factorial-utils-padding
+    yarn add factorial-utils-margin
 
 ## Available classes
 
