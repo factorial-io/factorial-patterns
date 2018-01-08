@@ -28,6 +28,7 @@ twig template and accept variables.
 Utils are low-level CSS classes that can be used to build bigger UI parts. Their 
 twig templates are only for demonstration purposes. 
 
+* [utils-display-responsive](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-display-responsive)
 * [utils-font](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-font)
 * [utils-font-weight](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-font-weight)
 * [utils-margin](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-margin)
