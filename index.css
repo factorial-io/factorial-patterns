@@ -1631,6 +1631,20 @@ ul {
   opacity: 0.6;
 }
 
+/** @define Image */
+
+.Image--contain {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/** @define Image */
+
+.Image--cover {
+  background-size: cover;
+}
+
 /** @define utilities */
 
 @media (max-width: 639px) {

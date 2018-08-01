@@ -1,0 +1,15 @@
+{% set bg_set = '' %}
+{% if sources is not empty %}
+  {% for source in sources %}
+    {% set bg_set = bg_set ~ "#{ source.srcset } [#{ source.media }] | " %}
+  {% endfor %}
+{% endif %}
+{% set bg_set = bg_set ~ src %}
+
+{% set focal_point = focal_point|default([50, 50]) %}
+<div
+  class="Image Image--contain is-lazy u-posFit"
+  data-bgset="{{ bg_set }}"
+  data-sizes="auto"
+  aria-label="{{ alt is defined ? alt : '' }}"
+></div>
