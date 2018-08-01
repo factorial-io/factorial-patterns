@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-factorial-utils-font@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/factorial-utils-font/-/factorial-utils-font-1.0.0.tgz#59edf0a072715588e56952bb35b671c4da4bd07c"
-
 factorial-utils-margin@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/factorial-utils-margin/-/factorial-utils-margin-0.0.5.tgz#22c69752792165b6eaebe1d3c59b1789d1889dca"
