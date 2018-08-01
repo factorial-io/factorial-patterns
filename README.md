@@ -16,23 +16,25 @@ This repository is a collection of reusable UI patterns.
 Components are distinct UI pieces that can be included and provide their own 
 twig template and accept variables. 
 
-* [components-button](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-button)
-* [components-flex-embed](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-flex-embed)
-* [components-image](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-image)
-* [components-modal](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-modal)
-* [components-pagination](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-pagination)
-* [components-rte](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/components/components-rte)
+* [components-button](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-button)
+* [components-flex-embed](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-flex-embed)
+* [components-image](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-image)
+* [components-image-contain](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-image-contain)
+* [components-image-cover](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-image-cover)
+* [components-modal](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-modal)
+* [components-pagination](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-pagination)
+* [components-rte](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-rte)
 
 ### Utils 
 
 Utils are low-level CSS classes that can be used to build bigger UI parts. Their 
 twig templates are only for demonstration purposes. 
 
-* [utils-display-responsive](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-display-responsive)
-* [utils-font](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-font)
-* [utils-font-weight](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-font-weight)
-* [utils-margin](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-margin)
-* [utils-padding](https://github.com/factorial-io/factorial-patterns/tree/develop/source/_patterns/utils/utils-padding)
+* [utils-display-responsive](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-display-responsive)
+* [utils-font](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-font)
+* [utils-font-weight](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-font-weight)
+* [utils-margin](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-margin)
+* [utils-padding](https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-padding)
 
 ## Installation
 
