@@ -2,12 +2,6 @@
 # yarn lockfile v1
 
 
-factorial-components-flex-embed@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/factorial-components-flex-embed/-/factorial-components-flex-embed-0.3.0.tgz#0008c228f79726a1eded400ef44f1504d63de0ef"
-  dependencies:
-    suitcss-components-flex-embed "^2.0.4"
-
 lazysizes@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-4.0.1.tgz#428fe9561d7ff5c3b2b2787b78ed54080986420b"
@@ -15,7 +9,3 @@ lazysizes@^4.0.1:
 picturefill@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/picturefill/-/picturefill-3.0.2.tgz#fa3d35fffbef5ab5300fe2ad9dca8f2e36cba27b"
-
-suitcss-components-flex-embed@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/suitcss-components-flex-embed/-/suitcss-components-flex-embed-2.0.4.tgz#a618359128941ef51c3d268373824a2874323d44"
