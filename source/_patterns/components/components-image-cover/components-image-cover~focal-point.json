@@ -1,0 +1,10 @@
+{
+  "width": "320",
+  "height": "240",
+  "src": "http://via.placeholder.com/320x240",
+  "alt": "Alternative text",
+  "focal_point": [
+    75,
+    25
+  ]
+}

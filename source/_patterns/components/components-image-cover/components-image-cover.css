@@ -1,0 +1,7 @@
+@import "suitcss-utils-position";
+
+/** @define Image */
+
+.Image--cover {
+  background-size: cover;
+}
