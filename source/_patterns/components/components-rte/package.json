@@ -12,5 +12,9 @@
     "factorial-utils-font": "^1.2.1",
     "factorial-utils-margin": "^0.0.5",
     "suitcss-base": "^4.0.0"
+  },
+  "devDependencies": {
+    "@factorial/frontend-stack-core": "^0.5.0",
+    "neutrino": "^8.3.0"
   }
 }

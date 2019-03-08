@@ -10,5 +10,9 @@
     "factorial-components-flex-embed": "^0.3.1",
     "lazysizes": "^4.0.1",
     "picturefill": "^3.0.2"
+  },
+  "devDependencies": {
+    "@factorial/frontend-stack-core": "^0.5.0",
+    "neutrino": "^8.3.0"
   }
 }

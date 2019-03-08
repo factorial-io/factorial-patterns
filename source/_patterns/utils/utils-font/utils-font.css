@@ -19,11 +19,11 @@
   --line-height-mega: 1;
   --font-size-kilo: 4rem;
   --line-height-kilo: 1;
-  --font-size-milli: .875rem;
+  --font-size-milli: 0.875rem;
   --line-height-milli: 1.5;
-  --font-size-micro: .75rem;
+  --font-size-micro: 0.75rem;
   --line-height-micro: 1.5;
-  --font-size-nano: .625rem;
+  --font-size-nano: 0.625rem;
   --line-height-nano: 1.5;
 }
 

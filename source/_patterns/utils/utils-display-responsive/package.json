@@ -7,5 +7,9 @@
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/utils/utils-display-responsive",
   "contributors": [
     "Nils Schönwald <nils@factorial.io>"
-  ]
+  ],
+  "devDependencies": {
+    "@factorial/frontend-stack-core": "^0.5.0",
+    "neutrino": "^8.3.0"
+  }
 }

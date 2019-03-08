@@ -11,5 +11,9 @@
   "dependencies": {
     "factorial-utils-margin": "^0.0.5",
     "suitcss-utils-position": "^1.0.1"
+  },
+  "devDependencies": {
+    "@factorial/frontend-stack-core": "^0.5.0",
+    "neutrino": "^8.3.0"
   }
 }

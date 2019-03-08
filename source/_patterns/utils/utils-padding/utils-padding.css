@@ -7,9 +7,9 @@
 @import "./lib/utils-padding-vertical.css";
 
 :root {
-  --space-1: .125rem;
-  --space-2: .25rem;
-  --space-3: .5rem;
+  --space-1: 0.125rem;
+  --space-2: 0.25rem;
+  --space-3: 0.5rem;
   --space-4: 1rem;
   --space-5: 2rem;
   --space-6: 4rem;
