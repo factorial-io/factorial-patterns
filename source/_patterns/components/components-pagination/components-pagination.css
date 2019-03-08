@@ -1,9 +1,9 @@
 /** @define Pagination */
 
 :root {
-  --Pagination-margin: .25rem;
-  --Pagination-bullet-size: .5rem;
-  --Pagination-border-width: .0625rem;
+  --Pagination-margin: 0.25rem;
+  --Pagination-bullet-size: 0.5rem;
+  --Pagination-border-width: 0.0625rem;
   --Pagination-border-style: solid;
 }
 
@@ -12,8 +12,8 @@
  */
 
 .Pagination {
-  margin: 0 -calc(var(--Pagination-margin) / 2); /* 1. */
   line-height: 0; /* 1. */
+  margin: 0 -calc(var(--Pagination-margin) / 2); /* 1. */
 }
 
 /*
@@ -24,16 +24,16 @@
  */
 
 .Pagination-bullet {
+  border-radius: 50%;
+  border-style: var(--Pagination-border-style);
+  border-width: var(--Pagination-border-width);
+  box-sizing: border-box; /* 3. */
   display: inline-block; /* 2. */
-  width: var(--Pagination-bullet-size);
   height: var(--Pagination-bullet-size);
   margin: 0 calc(var(--Pagination-margin) / 2);
   overflow: hidden; /* 1. */
   text-indent: -9999rem; /* 1. */
-  border-style: var(--Pagination-border-style);
-  border-width: var(--Pagination-border-width);
-  border-radius: 50%;
-  box-sizing: border-box; /* 3. */
+  width: var(--Pagination-bullet-size);
 }
 
 /*
@@ -46,8 +46,8 @@
 }
 
 /*
- * [1] Bullets usually are too small to make good click targets, therefore adding
- * clickability requires an additional modifier.
+ * [1] Bullets usually are too small to make good click targets, therefore
+ * adding clickability requires an additional modifier.
  */
 
 .Pagination--clickable .Pagination-bullet {
@@ -59,8 +59,8 @@
  */
 
 .Pagination--vertical {
-  width: var(--Pagination-bullet-size); /* 1. */
   margin: -calc(var(--Pagination-margin) / 2) 0;
+  width: var(--Pagination-bullet-size); /* 1. */
 }
 
 /*
