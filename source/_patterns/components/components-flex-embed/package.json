@@ -8,5 +8,9 @@
   "dependencies": {
     "suitcss-components-flex-embed": "^2.0.4"
   },
-  "style": "components-flex-embed.css"
+  "style": "components-flex-embed.css",
+  "devDependencies": {
+    "@factorial/frontend-stack-core": "^0.5.0",
+    "neutrino": "^8.3.0"
+  }
 }

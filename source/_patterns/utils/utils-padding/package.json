@@ -17,5 +17,9 @@
     "padding",
     "suitcss",
     "style"
-  ]
+  ],
+  "devDependencies": {
+    "@factorial/frontend-stack-core": "^0.5.0",
+    "neutrino": "^8.3.0"
+  }
 }
