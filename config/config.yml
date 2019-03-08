@@ -8,6 +8,7 @@ id:
     - scss
     - .svn
     - .sass-cache
+    - node_modules
 cleanPublic: 'true'
 patternStates:
     - inprogress
