@@ -1,6 +1,6 @@
 {
   "name": "factorial-components-pagination",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "A simple bullet-style pagination",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-pagination",
   "main": "index.js",

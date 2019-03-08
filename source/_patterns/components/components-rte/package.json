@@ -1,6 +1,6 @@
 {
   "name": "factorial-components-rte",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/factorial-io/factorial-patterns/tree/master/source/_patterns/components/components-rte",
@@ -9,7 +9,7 @@
     "components-rte.css"
   ],
   "dependencies": {
-    "factorial-utils-font": "^1.2.1",
+    "factorial-utils-font": "^1.3.0",
     "factorial-utils-margin": "^0.0.5",
     "suitcss-base": "^4.0.0"
   },
