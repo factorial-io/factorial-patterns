@@ -3248,6 +3248,22 @@ extract-text-webpack-plugin@^3.0.2:
     schema-utils "^0.3.0"
     webpack-sources "^1.0.1"
 
+factorial-components-flex-embed@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/factorial-components-flex-embed/-/factorial-components-flex-embed-0.4.0.tgz#131445bc7b5cdf75c418ebf647d57b339fcf2a04"
+  integrity sha512-X0jt3gom3h7DIsV7w921sTbkEy9hnWcgLIr8YH1KpJAcXiZu7prKYAT6bDvHel2Sm/jv4eqRW8uAST+WQak51Q==
+  dependencies:
+    suitcss-components-flex-embed "^2.0.4"
+
+factorial-components-image@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/factorial-components-image/-/factorial-components-image-1.0.0.tgz#4ad534b931783c27de5fd93d1d66559b28e0bc8e"
+  integrity sha512-bKZ2GKnMeVDVFcK/0Or2ovVn495F5ZCnO2BIbIaw4ojlMf3OXrVxNS3Ll5sWu7OAsXrmss+d47/1xtJLB9qO1w==
+  dependencies:
+    factorial-components-flex-embed "^0.4.0"
+    lazysizes "^4.0.1"
+    picturefill "^3.0.2"
+
 fast-async@^6.3.7:
   version "6.3.8"
   resolved "https://registry.yarnpkg.com/fast-async/-/fast-async-6.3.8.tgz#031b9e1d5a84608b117b3e7c999ad477ed2b08a2"
@@ -4716,9 +4732,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@>=3.10.0, lodash@^4.17.11, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.0.0, log-symbols@^2.2.0:
   version "2.2.0"
@@ -7605,6 +7621,11 @@ sugarss@^2.0.0:
   integrity sha512-WfxjozUk0UVA4jm+U1d736AUpzSrNsQcIbyOkoE364GrtWmIrFdk5lksEupgWMD4VaT/0kVx1dobpiDumSgmJQ==
   dependencies:
     postcss "^7.0.2"
+
+suitcss-components-flex-embed@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/suitcss-components-flex-embed/-/suitcss-components-flex-embed-2.0.4.tgz#a618359128941ef51c3d268373824a2874323d44"
+  integrity sha1-phg1kSiUHvUcPSaDc4JKKHQyPUQ=
 
 suitcss-utils-position@^1.0.1:
   version "1.0.1"
