@@ -1,0 +1,9 @@
+<script>
+  var styleElement = document.createElement("style");
+  {#
+    Due to IE11 support we cannot use template literals, but need to use normal strings instead.
+    We therefore have to remove all line breaks.
+  #}
+  styleElement.innerHTML = "{{ style|replace({'\n':' ', '\r':' '}) }}";
+  document.querySelector("head").appendChild(styleElement);
+</script>

@@ -1,11 +1,18 @@
+{% set placeholder_src = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" %}
 {% set placeholder_image %}
   <img
     class="Image is-lazy"
-    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    src="{{ placeholder_src }}"
     data-src="{{ src }}"
     alt="{{ alt }}"
   >
 {% endset %}
+{% set no_script %}
+  <noscript>
+    <img class="Image" src="{{ src }}" alt="{{ alt }}">
+  </noscript>
+{% endset %}
+
 
 {% set unique_id = random() %}
 {% set modifier = "FlexEmbed-ratio--#{ unique_id }" %}
@@ -17,16 +24,11 @@
 
 {% if sources is not empty %}
   {% set img %}
-    <noscript>
-      <img
-        class="Image"
-        src="{{ src }}"
-        alt="{{ alt }}"
-      >
-    </noscript>
+    {{ no_script }}
     <picture>
       {% for source in sources %}
         <source
+          srcset="{{ placeholder_src }}"
           data-srcset="{{ source.srcset }}"
           media="{{ source.media }}"
         >
@@ -40,24 +42,14 @@
         {% set style = style ~ style_media %}
       {% endfor %}
       {{ placeholder_image }}
-      <style>
-        {{ style }}
-      </style>
+      {% include "./components-image-script.twig" with {style: style} %}
     </picture>
   {% endset %}
 {% else %}
   {% set img %}
     {{ placeholder_image }}
-    <style>
-      {{ style }}
-    </style>
-    <noscript>
-      <img
-        class="Image"
-        src="{{ src }}"
-        alt="{{ alt }}"
-      >
-    </noscript>
+    {% include "./components-image-script.twig" with {style: style} %}
+    {{ no_script }}
   {% endset %}
 {% endif %}
 

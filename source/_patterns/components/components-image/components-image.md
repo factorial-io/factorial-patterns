@@ -35,5 +35,4 @@ name | description
 
 ## Caveats 
 
-* Injecting `style` tags into the `body` is technically non-valid HTML. 
 * Implicit Mondernizr dependency to `html.no-js`.
